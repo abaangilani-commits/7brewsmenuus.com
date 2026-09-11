@@ -55,7 +55,7 @@
 </div>
 </header>
 <!-- Hero Section -->
-<section class="hero-section" id="hero">
+<section aria-label="7 Brew introduction" class="hero-section" id="hero">
 <div class="container">
 <div class="hero-grid"><div class="hero-content"><span class="modern-eyebrow"><span></span> A LITTLE DISCOVERY. A LOT OF FLAVOR.</span><h1 class="hero-title">7 Brew Menu with Prices, Calories &amp; Sizes (2026)</h1><p class="hero-subtitle">Find 7 Brew prices, compare calories by drink and size, and use the nutrition calculator to explore your order. Original product photos, detailed menu guides, and clearly labelled estimates.</p><form action="index.html" class="hero-search" method="get"><label class="sr-only" for="heroSearch">Search drinks or flavors</label><input id="heroSearch" name="q" placeholder="Try caramel, matcha, or Blondie…" type="search"/><button aria-label="Search menu" type="submit">→</button></form><div class="hero-cta-row"><a class="btn btn-primary" href="#menu" style="margin-right:12px;">Check Prices ↓</a><a class="btn btn-primary" href="#menu" style="background:#233c36;border-color:#233c36;box-shadow:0 4px 14px rgba(35,60,54,0.3);">Explore Menu ↗</a><a class="hero-text-link" href="best-drinks">Help me choose →</a><a class="hero-text-link" href="nutrition-calories">Nutrition calculator →</a></div><p class="hero-small-note">Real product photos. Clear flavor guides. Your order, your way.</p></div><div aria-label="Featured drinks carousel" class="drink-stage" role="region"><span class="stage-kicker">FIND YOUR NEXT FAVORITE</span><div class="orbit-scene"><a class="orbit-drink" data-position="0" href="blondie"><img alt="7 Brew Blondie — image supplied by 7 Brew" decoding="async" fetchpriority="high" height="640" loading="eager" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-blondie.webp" srcset="assets/products/product-blondie-320.webp 320w, assets/products/product-blondie.webp 640w" width="640"/><span class="orbit-name">Blondie</span><span class="orbit-flavor">Vanilla · caramel · breve</span></a><a aria-hidden="true" class="orbit-drink" data-position="1" href="energy-drinks" tabindex="-1"><img alt="7 Brew Ocean Breeze 7 Energy — image supplied by 7 Brew" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-oceanbreeze7energy.webp" srcset="assets/products/product-oceanbreeze7energy-320.webp 320w, assets/products/product-oceanbreeze7energy.webp 640w" width="640"/><span class="orbit-name">Ocean Breeze</span><span class="orbit-flavor">Blue raspberry · coconut</span></a><a aria-hidden="true" class="orbit-drink" data-position="2" href="cookie-butter" tabindex="-1"><img alt="7 Brew Cookie Butter — image supplied by 7 Brew" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-cookiebutter.webp" srcset="assets/products/product-cookiebutter-320.webp 320w, assets/products/product-cookiebutter.webp 640w" width="640"/><span class="orbit-name">Cookie Butter</span><span class="orbit-flavor">Marshmallow · hazelnut · white chocolate</span></a><div aria-hidden="true" class="stage-pedestal"></div></div><div class="stage-controls"><button aria-label="Previous drink" data-orbit="prev" type="button">←</button><button aria-label="Pause rotation" class="motion-toggle" data-orbit="pause" type="button">Pause rotation</button><button aria-label="Next drink" data-orbit="next" type="button">→</button></div><p class="stage-credit">Original 7 Brew photos · <a href="about#sources">Image credits</a></p></div></div>
 </div>
@@ -87,7 +87,7 @@
 </div>
 </section>
 <!-- Main Menu Grid Section -->
-<main class="main-content" id="menu"><aside class="editorial-note"><strong>Independent guide.</strong> Not affiliated with 7 Brew. Confirm current prices at your stand and nutrition in the official guide. Check <a href="https://7brew.com/menu">7 Brew’s menu</a>, <a href="https://7brew.com/nutrition-guide.pdf">nutrition guide</a> and <a href="https://locations.7brew.com//">stand locator</a> for current information. <a href="about#sources">Sources and image credits</a>.</aside>
+<main class="main-content" id="menu"><div class="editorial-note"><strong>Independent guide.</strong> Not affiliated with 7 Brew. Confirm current prices at your stand and nutrition in the official guide. Check <a href="https://7brew.com/menu">7 Brew’s menu</a>, <a href="https://7brew.com/nutrition-guide.pdf">nutrition guide</a> and <a href="https://locations.7brew.com//">stand locator</a> for current information. <a href="about#sources">Sources and image credits</a>.</div>
 <div class="container">
 <div class="section-header" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:12px;">
 <div>
@@ -1712,7 +1712,7 @@
 </span>
 <span style="font-size:0.75rem; color:var(--text-muted);">Auto-fills syrups</span>
 </div>
-<select id="flavorComboPresetSelect" style="width:100%; padding:9px 12px; border-radius:8px; border:1px solid #CBD5E1; font-family:var(--font-body); font-size:0.88rem; font-weight:600; color:#005DA6; background:#FFFFFF; cursor:pointer;">
+<select aria-label="Suggested flavor combo" id="flavorComboPresetSelect" style="width:100%; padding:9px 12px; border-radius:8px; border:1px solid #CBD5E1; font-family:var(--font-body); font-size:0.88rem; font-weight:600; color:#005DA6; background:#FFFFFF; cursor:pointer;">
 <option value="">-- Or Pick a Suggested Flavor Combo --</option>
 <!-- Populated via app.js -->
 </select>
@@ -1741,7 +1741,7 @@
 <div class="builder-output-panel">
 <div class="output-header">
 <span class="output-header-tag">Live Order Ticket</span>
-<h4>Drive-Thru Spec</h4>
+<h3>Drive-Thru Spec</h3>
 </div>
 <div class="output-meters-grid">
 <div class="meter-box">
@@ -1771,7 +1771,7 @@
  Live Your Order Choices (Eliminates empty space) 
 <div class="ingredients-breakdown-card">
 <div class="ingredients-header">
-<h5>🧪 Your Order Choices</h5>
+<h4>🧪 Your Order Choices</h4>
 <span class="ingredients-count-badge" id="ingredientsCountBadge">Loading...</span>
 </div>
 <ul class="ingredients-list" id="builderIngredientsList">
@@ -1801,7 +1801,7 @@
 <div class="cup-cards-grid">
 <div class="cup-card">
 <div class="cup-card-icon">🥤</div>
-<h4>Small Size</h4>
+<h3>Small Size</h3>
 <div class="cup-ounces">16 oz Iced / 12 oz Hot</div>
 <p><strong>Espresso Shots:</strong> 2 shots (double pulled)</p>
 <p style="margin-top:6px;">A quick caffeine boost that stays light. Perfect for classic lattes and morning drips. Average price: $3.95 to $4.50.</p>
@@ -1809,7 +1809,7 @@
 </div>
 <div class="cup-card" style="border-color:var(--brew-gold); background:#FFFDF9;">
 <div class="cup-card-icon" style="color:var(--brew-gold-dark);">🥤</div>
-<h4 style="color:var(--brew-crimson);">Medium Size (Most Popular)</h4>
+<h3 style="color:var(--brew-crimson);">Medium Size (Most Popular)</h3>
 <div class="cup-ounces" style="color:var(--brew-crimson-dark);">24 oz Iced / 16 oz Hot</div>
 <p><strong>Espresso Shots:</strong> 2 shots (standard)</p>
 <p style="margin-top:6px;">The favorite drive-thru volume with an optimal balance of espresso, syrup sweetness, and ice. Average price: $5.25.</p>
@@ -1817,7 +1817,7 @@
 </div>
 <div class="cup-card">
 <div class="cup-card-icon">🥤</div>
-<h4>Large Size</h4>
+<h3>Large Size</h3>
 <div class="cup-ounces">32 oz Iced / 20 oz Hot</div>
 <p><strong>Espresso Shots:</strong> 4 shots (quad pulled)</p>
 <p style="margin-top:6px;">A full 32 fluid ounces for iced drinks. Loaded with 4 espresso shots or high-octane 7 Energy. Average price: $6.25 to $7.25.</p>
@@ -1847,14 +1847,14 @@
 </div>
 <div class="cup-cards-grid">
 <div class="cup-card" style="text-align:left;">
-<h4>Sugar-Free Syrups (recipe dependent)</h4>
+<h3>Sugar-Free Syrups (recipe dependent)</h3>
 <p style="margin-top:8px; font-size:0.86rem; color:var(--text-muted); line-height:1.6;">
               SF Vanilla, SF Caramel, SF Hazelnut, SF White Chocolate, SF Dark Chocolate, SF Irish Cream, SF Brown Sugar Cinnamon, SF Coconut, SF Strawberry, SF Raspberry, SF Peach, and SF Peppermint.
             </p>
 <a class="btn btn-outline btn-sm" href="syrups-flavors" style="margin-top:14px; width:100%; text-align:center; display:block; font-size:0.8rem;">Browse All 32 Syrups &amp; Pumps →</a>
 </div>
 <div class="cup-card" style="text-align:left;">
-<h4>Milk Options &amp; Calories</h4>
+<h3>Milk Options &amp; Calories</h3>
 <p style="margin-top:8px; font-size:0.86rem; color:var(--text-muted); line-height:1.6;">
               • <strong>Breve (Half &amp; Half):</strong> ~40 kcal per oz (rich signature base)<br/>
               • <strong>Whole Milk:</strong> ~18 kcal per oz<br/>
@@ -1864,7 +1864,7 @@
 <a class="btn btn-outline btn-sm" href="nutrition-calories" style="margin-top:14px; width:100%; text-align:center; display:block; font-size:0.8rem;">View Milk Calories &amp; Macros →</a>
 </div>
 <div class="cup-card" style="text-align:left;">
-<h4>Keto &amp; Low-Carb Orders</h4>
+<h3>Keto &amp; Low-Carb Orders</h3>
 <a class="btn btn-primary btn-sm" href="nutrition-calories" style="margin-top:14px; width:100%; text-align:center; display:block; font-size:0.8rem;">Launch Live Nutrition Calculator →</a>
 </div>
 </div>
@@ -1875,7 +1875,7 @@
 <!-- ==========================================================================
            FULL PRICE TABLES BY CATEGORY
            ========================================================================== -->
-<section aria-label="Master Price Tables" class="price-tables-section" id="priceTables"><aside class="editorial-note"><strong>Prices and nutrition:</strong> Prices below are restored planning estimates, not verified local quotes. Older recipe figures are estimates unless identified as official. The calculator uses official recipe rows where matched and estimates for custom adjustments. <a href="https://7brew.com/nutrition-guide.pdf">Official nutrition guide</a>.</aside>
+<section aria-label="Master Price Tables" class="price-tables-section" id="priceTables"><div class="editorial-note"><strong>Prices and nutrition:</strong> Prices below are restored planning estimates, not verified local quotes. Older recipe figures are estimates unless identified as official. The calculator uses official recipe rows where matched and estimates for custom adjustments. <a href="https://7brew.com/nutrition-guide.pdf">Official nutrition guide</a>.</div>
 <div class="section-header">
 <span class="section-eyebrow">Category By Category</span>
 <h2 class="section-title">2026 Price Tables: Small Medium Large Sizes Compared</h2>
@@ -2052,7 +2052,7 @@
 </div>
 <div style="padding:12px 18px; background:#F0F9FF; border-top:1px solid #BAE6FD; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; font-size:0.88rem;">
 <span>Looking for full sugar-free can nutrition and caffeine comparisons against Red Bull and Monster?</span>
-<a class="btn btn-sm" href="energy-drinks" style="background:#0284C7; color:#fff; font-weight:700;">Open Complete 7 Energy Guide →</a>
+<a class="btn btn-sm" href="energy-drinks" style="background:#027AB8; color:#fff; font-weight:700;">Open Complete 7 Energy Guide →</a>
 </div>
 </div>
 <!-- Table 3: 7 Fizz Sodas & Teas -->
@@ -2164,9 +2164,9 @@
 <li><strong>Price estimates</strong> — collected from posted menu boards and the 7 Brew app; prices vary by location and are rounded to the nearest quarter dollar.</li>
 <li><strong>Calorie &amp; nutrition data</strong> — sourced from 7 Brew's published nutrition guides and verified against standard USDA values for base ingredients.</li>
 <li><strong>Update schedule</strong> — the full menu is re-checked monthly; seasonal items and limited-time offerings are verified within 48 hours of announcement.</li>
-<li><strong>Corrections</strong> — readers who spot an error can report it through our <a href="contact">contact page</a>; confirmed corrections are applied the same day.</li>
+<li><strong>Corrections</strong> — readers who spot an error can report it through our <a href="contact" style="text-decoration:underline;">contact page</a>; confirmed corrections are applied the same day.</li>
 </ul>
-<p style="font-size:0.82rem;color:var(--text-muted);">This site is an <strong>independent consumer guide</strong> and is not affiliated with, endorsed by, or sponsored by 7 Brew Coffee LLC. All trademarks belong to their respective owners. <a href="about">Learn more about our editorial standards</a>.</p>
+<p style="font-size:0.82rem;color:var(--text-muted);">This site is an <strong>independent consumer guide</strong> and is not affiliated with, endorsed by, or sponsored by 7 Brew Coffee LLC. All trademarks belong to their respective owners. <a href="about" style="text-decoration:underline;">Learn more about our editorial standards</a>.</p>
 </div>
 </section>
 </div>
@@ -2185,7 +2185,7 @@
           </div>
 </div>
 <div class="footer-col">
-<h5>Menu Categories</h5>
+<h3>Menu Categories</h3>
 <ul><li><a href="menu-pdf">Download menu PDF</a></li><li><a href="guides">Drink guides</a></li>
 <li><a href="/#menu">7 Originals</a></li>
 <li><a href="energy-drinks">7 Energy Drinks</a></li>
@@ -2198,7 +2198,7 @@
 </ul>
 </div>
 <div class="footer-col">
-<h5>In-Depth Guides</h5>
+<h3>In-Depth Guides</h3>
 <ul>
 <li><a href="secret-menu">Secret Menu Vault</a></li>
 <li><a href="jackpot-day">Jackpot Day &amp; Deals</a></li>
@@ -2215,7 +2215,7 @@
 </ul>
 </div>
 <div class="footer-col">
-<h5>About &amp; Trust</h5>
+<h3>About &amp; Trust</h3>
 <ul>
 <li><a href="about">About Our Research</a></li>
 <li><a href="franchise">Franchise Cost &amp; Info</a></li>

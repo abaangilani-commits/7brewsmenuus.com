@@ -19,7 +19,7 @@
   --brew-border-focus: #EA0029;
   
   /* Backward-compatible Brand Aliases */
-  --brew-crimson: #EA0029;
+  --brew-crimson: #DB0026;
   --brew-crimson-dark: #C40022;
   --brew-crimson-light: #FF2B50;
   --brew-gold: #005DA6;
@@ -967,7 +967,7 @@ main.main-content {
 .drink-category-badge.cat-badge-energy,
 .drink-category-badge[data-category="energy"] {
   background: #E0F2FE;
-  color: #0284C7;
+  color: #0273AE;
   border: 1px solid #BAE6FD;
 }
 
@@ -1477,7 +1477,7 @@ main.main-content {
 
 .syrup-check-item span.sf-tag {
   font-size: 0.65rem;
-  background: #059669;
+  background: #047857;
   color: #FFFFFF;
   padding: 1px 5px;
   border-radius: 3px;
@@ -2212,7 +2212,7 @@ footer.site-footer {
 }
 
 .footer-brand-title span {
-  color: var(--brew-gold);
+  color: #1E90FF;
 }
 
 .footer-disclaimer-text {
@@ -2221,11 +2221,11 @@ footer.site-footer {
   line-height: 1.6;
 }
 
-.footer-col h5 {
+.footer-col h3 {
   font-family: var(--font-mono);
   font-size: 0.74rem;
   text-transform: uppercase;
-  color: var(--brew-gold);
+  color: #1E90FF;
   letter-spacing: 0.08em;
   margin-bottom: 14px;
 }
@@ -3367,3 +3367,6 @@ footer.site-footer {
   .main-nav details.nav-more{display:block;width:100%}
   .main-nav details.nav-more .nav-more-menu{position:static;box-shadow:none;border:none;padding-left:14px;margin-top:4px;background:transparent}
 }
+
+/* Accessibility: distinguish inline links from body text without relying on color alone */
+.section-desc a, .eeat-content a { text-decoration: underline; text-underline-offset: 2px; }
