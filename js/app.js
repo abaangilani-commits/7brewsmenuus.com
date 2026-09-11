@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="image-credit">Estimated prices · confirm with your stand</p><table class="drink-prices-table" aria-label="Estimated prices for ${item.name}"><thead><tr><th>Small</th><th>Medium</th><th>Large</th></tr></thead><tbody><tr><td>$${item.pricing.small.toFixed(2)}</td><td>$${item.pricing.medium.toFixed(2)}</td><td>$${item.pricing.large.toFixed(2)}</td></tr></tbody></table>
 
           <div class="drink-card-meta">
-            <span>${item.nutritionSource.startsWith('Official') ? '' : '~'}${item.calories.medium} kcal · medium</span><span>${item.caffeineMg.medium} mg caffeine</span><small>${item.nutritionSource}</small><a href="nutrition-calories.html">Customize nutrition →</a>
+            <span>${item.nutritionSource.startsWith('Official') ? '' : '~'}${item.calories.medium} kcal · medium</span><span>${item.caffeineMg.medium} mg caffeine</span><small>${item.nutritionSource}</small><a href="nutrition-calories">Customize nutrition →</a>
             
           </div>
 
