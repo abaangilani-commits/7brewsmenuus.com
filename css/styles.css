@@ -3360,12 +3360,14 @@ footer.site-footer {
 .main-nav details.nav-more summary::-webkit-details-marker{display:none}
 .main-nav details.nav-more summary::marker{content:"";}
 .main-nav details.nav-more summary:hover{color:#b83219}
-.main-nav details.nav-more .nav-more-menu{position:absolute;top:100%;left:0;background:#fff;border:1px solid #E8E0D8;border-radius:10px;box-shadow:0 12px 24px rgba(35,60,54,0.14);padding:8px;min-width:230px;display:flex;flex-direction:column;z-index:60;margin-top:8px}
+.main-nav details.nav-more .nav-more-menu{position:absolute;top:100%;left:0;background:#fff;border:1px solid #E8E0D8;border-radius:10px;box-shadow:0 12px 24px rgba(35,60,54,0.14);padding:10px 8px;min-width:460px;display:grid;grid-template-columns:1fr 1fr;gap:0 20px;z-index:60;margin-top:8px}
+.main-nav details.nav-more .nav-more-col{display:flex;flex-direction:column}
+.main-nav details.nav-more .nav-more-label{font-family:var(--font-mono);font-size:10px;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-light,#8a8a8a);padding:8px 12px 4px;margin-top:2px}
 .main-nav details.nav-more .nav-more-menu a{padding:9px 12px;border-radius:6px;font-size:13px;white-space:nowrap;color:#233c36}
 .main-nav details.nav-more .nav-more-menu a:hover{background:#F5F0EB}
 @media(max-width:1100px){
   .main-nav details.nav-more{display:block;width:100%}
-  .main-nav details.nav-more .nav-more-menu{position:static;box-shadow:none;border:none;padding-left:14px;margin-top:4px;background:transparent}
+  .main-nav details.nav-more .nav-more-menu{position:static;box-shadow:none;border:none;padding-left:14px;margin-top:4px;background:transparent;grid-template-columns:1fr;min-width:0}
 }
 
 /* Accessibility: distinguish inline links from body text without relying on color alone */
