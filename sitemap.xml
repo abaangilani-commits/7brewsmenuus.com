@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/app-rewards</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/best-drinks</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -140,7 +140,7 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/how-to-order-rewards</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -164,7 +164,7 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/locations</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -194,7 +194,7 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/seasonal-drinks</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -223,12 +223,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/syrups-flavors</loc>
-    <lastmod>2026-09-09</lastmod>
-    <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/terms-of-service</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.2</priority>
@@ -236,7 +230,7 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/what-is-7-brew</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-09-11</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
