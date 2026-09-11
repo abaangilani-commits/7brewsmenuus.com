@@ -246,4 +246,46 @@
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://7brewsmenuus.com/7-brew-vs-competitors</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/syrups-flavors</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/kids-menu</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/allergen-dietary-guide</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/franchise</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/careers</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/gift-cards-merch</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
