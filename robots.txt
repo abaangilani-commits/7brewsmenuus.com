@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /research/
+Disallow: /scripts/
+
+Sitemap: https://7brewsmenuus.com/sitemap.xml
+Sitemap: https://7brewsmenuus.com/image-sitemap.xml
+
+Disallow: /tmp/

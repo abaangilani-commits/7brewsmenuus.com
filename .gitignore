@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Internal folders
+/research/
+/scripts/
+/tmp/
+/output/
+/Claude outputs/
+
+# Google SERP check (internal)
+google-serp-check.txt
