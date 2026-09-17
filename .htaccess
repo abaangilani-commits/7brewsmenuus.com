@@ -2,6 +2,10 @@ DirectoryIndex index.html
 Options -MultiViews
 RewriteEngine On
 
+# www -> apex (single canonical host)
+RewriteCond %{HTTP_HOST} ^www\.7brewsmenuus\.com$ [NC]
+RewriteRule ^(.*)$ https://7brewsmenuus.com/$1 [R=301,L]
+
 # /index or /index.html -> /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index(\.html)?[\s?] [NC]
 RewriteRule ^ /? [R=301,L]
