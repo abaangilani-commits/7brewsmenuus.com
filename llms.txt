@@ -24,7 +24,7 @@ This guide tracks 7 Brew's menu, pricing, and program details as they change, an
 ## Locations
 
 - [Find a Stand](https://7brewsmenuus.com/locations): searchable directory of 7 Brew drive-thru stands by city, state, and ZIP.
-- City guides include [Dallas, TX](https://7brewsmenuus.com/7-brew-dallas-tx), [Houston, TX](https://7brewsmenuus.com/7-brew-houston-tx), [Nashville, TN](https://7brewsmenuus.com/7-brew-nashville-tn), [Rogers, AR](https://7brewsmenuus.com/7-brew-rogers-ar), and other markets.
+- [7 Brew locations by state](https://7brewsmenuus.com/locations#browse-by-state): state pages such as [Texas](https://7brewsmenuus.com/locations/tx), [Florida](https://7brewsmenuus.com/locations/fl) and [Ohio](https://7brewsmenuus.com/locations/oh), with city pages such as [Louisville, KY](https://7brewsmenuus.com/locations/ky/louisville), [Springfield, MO](https://7brewsmenuus.com/locations/mo/springfield) and [Indianapolis, IN](https://7brewsmenuus.com/locations/in/indianapolis).
 
 ## Background & comparisons
 

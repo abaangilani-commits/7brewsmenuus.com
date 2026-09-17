@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /research/
 Disallow: /scripts/
+Disallow: /tools/
 
 Sitemap: https://7brewsmenuus.com/sitemap.xml
 Sitemap: https://7brewsmenuus.com/image-sitemap.xml
