@@ -1768,10 +1768,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1811,10 +1811,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1853,10 +1853,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1895,10 +1895,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1938,10 +1938,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1980,10 +1980,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2021,10 +2021,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2063,10 +2063,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2104,10 +2104,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2146,10 +2146,10 @@ const MENU_DATA = {
         "large": 20
       },
       "caffeineMg": {
-        "small": 160,
-        "medium": 240,
-        "large": 320
-      },
+          "small": 67,
+          "medium": 105,
+          "large": 133
+        },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
