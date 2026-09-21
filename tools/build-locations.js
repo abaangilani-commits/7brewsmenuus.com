@@ -15,11 +15,12 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const vm = require('vm');
 
 const ROOT = path.join(__dirname, '..');
 const SITE = 'https://7brewsmenuus.com';
 const OUT_DIR = path.join(ROOT, 'location-pages');
-const MIN_CITY_STANDS = 2;
+const MIN_CITY_STANDS = 1;
 const ASSET_VERSION = '20260912c';
 
 const STATE_NAMES = {
@@ -243,16 +244,42 @@ function nearbyCities(city, limit) {
     .slice(0, limit);
 }
 
+// Chain-wide price ranges by category, from menu-data.js (estimates, not official)
+const MENU = (() => {
+  const c = { window: {}, document: {} };
+  vm.createContext(c);
+  vm.runInContext(fs.readFileSync(path.join(ROOT, 'js/menu-data.js'), 'utf8') + ';globalThis.M=MENU_DATA;', c);
+  return c.M;
+})();
+function menuPriceTable() {
+  const rows = MENU.categories
+    .filter(cat => cat.id !== 'all')
+    .map(cat => {
+      const items = MENU.items.filter(i => i.category === cat.id && i.pricing);
+      if (!items.length) return null;
+      const lo = Math.min(...items.map(i => i.pricing.small));
+      const hi = Math.max(...items.map(i => i.pricing.large));
+      if (!(lo > 0) || !(hi > 0)) return null;
+      return `<tr><th scope="row" style="font-weight:600;">${esc(cat.name)}</th><td>$${lo.toFixed(2)} – $${hi.toFixed(2)}</td><td>${items.length}</td></tr>`;
+    })
+    .filter(Boolean);
+  return `<div class="guide-table"><table><thead><tr><th scope="col">Menu category</th><th scope="col">Price range (small–large)</th><th scope="col">Drinks</th></tr></thead><tbody>
+${rows.join('\n')}
+</tbody></table></div>`;
+}
+
 // ---------- city pages ----------
 function buildCity(city) {
   const { state } = city;
   const n = city.stands.length;
   const place = `${city.name}, ${state.abbr}`;
   const streets = city.stands.map(s => s.street);
-  const title = n === 1
-    ? `7 Brew ${place}: Address & Hours (2026)`
-    : `7 Brew ${place}: ${n} Locations & Hours (2026)`;
-  const describe = withStreets => `${n === 1 ? 'The 7 Brew drive-thru' : `All ${n} 7 Brew drive-thru stands`} in ${city.name}, ${state.abbr}${withStreets ? ` on ${listJoin(streets)}` : ''}: hours, directions and nearby stands. Checked ${CHECKED}.`;
+  // Searches are shaped "7 brew coffee <city> menu", so the title carries menu intent
+  const baseTitle = n === 1
+    ? `7 Brew ${place}: Hours, Menu & Address`
+    : `7 Brew ${place}: ${n} Locations, Hours & Menu`;
+  const title = baseTitle.length <= 53 ? `${baseTitle} (2026)` : baseTitle;
+  const describe = withStreets => `${n === 1 ? 'The 7 Brew drive-thru' : `All ${n} 7 Brew drive-thru stands`} in ${city.name}, ${state.abbr}${withStreets ? ` on ${listJoin(streets)}` : ''}: hours, directions, menu prices and nearby stands. Checked ${CHECKED}.`;
   const description = n <= 2 && describe(true).length <= 160 ? describe(true) : describe(false);
   const nearby = nearbyCities(city, 6);
   const note = notes[city.key];
@@ -267,6 +294,8 @@ function buildCity(city) {
     [`What time does 7 Brew close in ${city.name}?`,
       `The latest listed closing time in ${city.name} is ${latestClose(city.stands)}. Most 7 Brew stands close later on Friday and Saturday, so check the hours for your stand above.`],
   ];
+  faqs.push([`Does the 7 Brew in ${city.name} have the full menu?`,
+    `Yes. The drink menu is the same at every 7 Brew, so ${city.name} gets the same 7 Originals, Classics, 7 Energy, Fizz sodas, lemonades, teas, smoothies and shakes. Seasonal items rotate chain-wide, and any stand can run out of a syrup.`]);
   if (nearby.length) {
     const nb = nearby[0];
     faqs.push([`Where is the nearest 7 Brew outside ${city.name}?`,
@@ -283,7 +312,10 @@ ${standTable(city.stands)}
 ${nearby.length ? `<section><h2>Other 7 Brew locations near ${esc(city.name)}</h2><ul class="guide-link-grid">
 ${nearby.map(({ city: c, miles }) => `<li><a href="${c.path}">7 Brew ${esc(c.name)}, ${c.state.abbr}</a> — about ${Math.round(miles)} mi, ${plural(c.stands.length, 'stand', 'stands')}</li>`).join('\n')}
 </ul><p>See all ${plural(state.stands.length, 'stand', 'stands')} on the <a href="${state.path}">7 Brew ${esc(state.name)} locations</a> page, or search every stand by ZIP code in the <a href="/locations">nationwide 7 Brew locator</a>.</p></section>` : ''}
-<section><h2>Before you go</h2><p>Browse the <a href="/">7 Brew menu with prices</a>, pick a drink from our <a href="/best-drinks">best 7 Brew drinks</a> list, or compare <a href="/sizes-caffeine">cup sizes and caffeine</a>. Ordering ahead? See how <a href="/app-rewards">7 Brew Rewards points</a> work.</p></section>
+<section><h2>7 Brew ${esc(city.name)} menu and prices</h2>
+<p>Every 7 Brew serves the same drink menu, so the ${esc(city.name)} board matches the national one. These are our researched price estimates by category — stands are independently owned, so your local prices can differ by a few cents.</p>
+${menuPriceTable()}
+<p>Full detail: <a href="/">the complete menu with prices</a>, <a href="/nutrition-calories">calories and the nutrition calculator</a>, <a href="/sizes-caffeine">cup sizes and caffeine</a>, and the <a href="/secret-menu">secret menu</a>. Deals run on the <a href="/jackpot-day">7th of every month</a>, and drinks earn <a href="/app-rewards">rewards points</a>.</p></section>
 <section><h2>7 Brew ${esc(city.name)} FAQ</h2>
 ${faqDetails(faqs)}
 </section>`;
@@ -388,7 +420,12 @@ replaceBlock('locations.html', 'STATE-COUNTS', (() => {
 
 replaceBlock('locations.html', 'BROWSE', `<section id="browse-by-state"><h2>Browse 7 Brew locations by state</h2><ul class="guide-link-grid">
 ${[...stateList].sort((a, b) => a.name.localeCompare(b.name)).map(s => `<li><a href="${s.path}">7 Brew ${esc(s.name)}</a> (${s.stands.length})</li>`).join('\n')}
-</ul></section>
+</ul>
+<p style="margin-top:14px;">7 Brew has no stands yet in ${(() => {
+  const have = new Set(stateList.map(s => s.abbr));
+  const missing = Object.entries(STATE_NAMES).filter(([abbr]) => !have.has(abbr)).map(([, name]) => name);
+  return `${missing.length} states and territories, including ${listJoin(['California', 'Washington', 'Oregon', 'Nevada'].filter(n => missing.includes(n)))}`;
+})()}. The chain is expanding from its Arkansas base outward, so the map changes month to month — we re-check the official locator and update these pages with it.</p></section>
 <section id="popular-cities"><h2>Popular 7 Brew cities</h2><ul class="guide-link-grid">
 ${topCitiesNational.map(c => `<li><a href="${c.path}">7 Brew ${esc(c.name)}, ${c.state.abbr}</a> (${c.stands.length})</li>`).join('\n')}
 </ul></section>`);
@@ -399,5 +436,22 @@ replaceBlock('sitemap.xml', 'SITEMAP', [
   ...stateList.map(s => s.path),
   ...stateList.flatMap(s => [...s.cities.values()].filter(c => c.hasPage).map(c => c.path)),
 ].map(p => `  <url>\n    <loc>${SITE}${p}</loc>\n    <lastmod>${snapshot.checked}</lastmod>\n    <priority>0.6</priority>\n    <changefreq>monthly</changefreq>\n  </url>`).join('\n'));
+
+// Keep the stand count and check date in sync everywhere they appear in prose,
+// so a data refresh never leaves a stale number behind.
+{
+  const total = stands.length;
+  const countRe = /\b(6|7|8|9)\d\d\b(?=(?:\+)?\s*(?:official\s+)?(?:7 Brew\s+)?(?:drive-thru\s+)?stands?\b|\s*Drive-Thru Stands|\s*stand pages|\s*stands in the published)/g;
+  const dateRe = /\bChecked (?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}\b/g;
+  const checkedRe = /\bchecked (?:January|February|March|April|May|June|July|August|September|October|November|December) \d{1,2}, \d{4}\b/g;
+  let touched = 0;
+  const files = fs.readdirSync(ROOT).filter(f => f.endsWith('.html'));
+  for (const f of files) {
+    const before = readText(f);
+    let after = before.replace(countRe, String(total)).replace(dateRe, `Checked ${CHECKED}`).replace(checkedRe, `checked ${CHECKED}`);
+    if (after !== before) { writeText(f, after); touched++; }
+  }
+  console.log(`Synced stand count (${total}) and check date (${CHECKED}) across ${touched} pages.`);
+}
 
 console.log(`Built ${stateList.length} state pages and ${cityPages} city pages from ${stands.length} stands (checked ${snapshot.checked}).`);
