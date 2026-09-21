@@ -9,3 +9,5 @@ After changing menu data, run `node scripts/prerender-menu.js`. Preview with `py
 State and city location pages (/locations/<st> and /locations/<st>/<city>) are generated from assets/locations.json. After refreshing that file, run `node tools/build-locations.js`; it rewrites location-pages/ and the marked LOCATIONS blocks in locations.html, index.html and sitemap.xml. Hand-written city intros live in tools/city-notes.json.
 
 The price, caffeine and calorie tables on /energy-drinks and /nutrition-calories are generated: run `node tools/build-drink-tables.js` after changing js/official-nutrition.js or js/menu-data.js. It fills the <!-- DRINKS:*:START/END --> blocks. Calories, caffeine and sugar come from the official nutrition guide; prices come from menu-data.js and are estimates.
+
+Per-drink pages are generated: `node tools/build-drink-pages.js` builds a page for each drink in tools/drink-pages.json plus the /teas-chai hub, and refreshes the DRINKS:INDEX blocks on guides, energy-drinks, fizz-drinks, lemonades and matcha. Allergens come from tools/drink-allergens.json, parsed from 7 Brew’s nutrition PDF; it never overwrites a hand-written page.
