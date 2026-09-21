@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/jackpot-day</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -215,6 +215,12 @@
     <lastmod>2026-09-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/deals</loc>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
   </url>
 <!-- LOCATIONS:SITEMAP:START -->
   <url>
