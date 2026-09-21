@@ -43,184 +43,12 @@
 <!-- Interactive Nutrition & Macro Calculator -->
 <section class="nutrition-calc-card" id="nutritionCalculatorSection">
 <div class="section-header" style="margin-bottom:16px;">
-<span class="section-eyebrow" style="color:#0D9488;">Interactive Nutrition Estimator</span>
-<h2 class="section-title" style="color:#115E59; margin-bottom:6px;">Interactive 7 Brew Nutrition &amp; Macro Calculator</h2>
-<p class="section-desc" style="color:var(--text-muted);">
-            Customize any 7 Brew drink with your preferred milk swap, sweetness level, and toppings to calculate estimated calories, net carbs, sugar, fat, protein, and caffeine in real time. Compare standard pricing on our <a href="/#priceTables">7 Brew Menu with Prices</a>, verify syrup measurements in our <a href="syrups-flavors">Torani Syrups Directory</a>, or review fluid ounces in our <a href="sizes-caffeine">Cup Sizes (oz) Guide</a>.
-          </p>
+<span class="section-eyebrow">Interactive tool</span>
+<h2 class="section-title" style="color:#115E59; margin-bottom:6px;">7 Brew Nutrition &amp; Price Calculator</h2>
+<p class="section-desc">Build any drink — size, milk and sweetness — and get the calories, macros, caffeine and estimated price, plus a script to read out at the window.</p>
 </div>
-<div class="nutrition-calc-grid">
-<!-- Left Column: Controls -->
-<div class="nutrition-calc-controls">
-<!-- 1. Select Drink Base -->
-<div class="calc-form-group">
-<label class="calc-form-label" for="calcDrinkSelect">1. Select 7 Brew Drink Base</label>
-<select class="calc-select" id="calcDrinkSelect">
-<optgroup label="7 Originals (Signature Breves)">
-<option selected="" value="blondie">The Blondie (Caramel &amp; Vanilla Breve)</option>
-<option value="brunette">The Brunette (Caramel &amp; Hazelnut Mocha Breve)</option>
-<option value="smooth7">Smooth 7 (White Chocolate &amp; Irish Cream Breve)</option>
-<option value="cinnamon-roll">Cinnamon Roll (White Choc &amp; Brown Sugar Cinnamon)</option>
-<option value="white-choc-mocha">White Chocolate Mocha Breve</option>
-<option value="german-choc">German Chocolate (Caramel, Coconut &amp; Mocha)</option>
-<option value="sweet-salty">Sweet &amp; Salty (Salted Caramel &amp; White Choc)</option>
-<option value="triple7">Triple 7 Breve (6 Espresso Shots)</option>
-</optgroup>
-<optgroup label="Coffee Classics &amp; Cold Brew">
-<option value="cold-brew">Craft Cold Brew (Black)</option>
-<option value="cold-brew-foam">Cold Brew with Sweet Cream Cold Foam</option>
-<option value="classic-latte">Classic Latte (Espresso + Steamed Milk)</option>
-<option value="classic-breve">Classic Breve (Espresso + Half &amp; Half)</option>
-<option value="classic-mocha">Classic Mocha (Espresso + Dark Chocolate)</option>
-<option value="americano">Iced or Hot Americano</option>
-</optgroup>
-<optgroup label="7 Energy Drinks">
-<option value="ocean-breeze">Ocean Breeze 7 Energy (Blue Raspberry &amp; Coconut)</option>
-<option value="pixie-stick">Pixie Stick 7 Energy (Orange, Almond &amp; Pomegranate)</option>
-<option value="tigers-blood">Tigers Blood 7 Energy (Strawberry &amp; Coconut)</option>
-<option value="sf-energy-base">Sugar-Free 7 Energy Can Base (0 Sugar)</option>
-</optgroup>
-<optgroup label="7 Fizz Sparkling Sodas">
-<option value="pink-mermaid">Pink Mermaid 7 Fizz (Watermelon, Strawberry &amp; Coconut)</option>
-</optgroup>
-<optgroup label="Teas &amp; Matcha">
-<option value="strawberry-matcha">Strawberry Matcha Latte</option>
-<option value="chai-latte">Spiced Chai Tea Latte</option>
-<option value="iced-tea">Iced Black or Green Tea</option>
-</optgroup>
-<option value="cookie-butter">Cookie Butter (Marshmallow, Hazelnut &amp; White Chocolate)</option><option value="banana-bread">Banana Bread (Banana &amp; Hazelnut Mocha)</option></select>
-</div>
-<!-- 2. Temperature Style -->
-<div class="calc-form-group">
-<label class="calc-form-label">2. Serving Temperature</label>
-<div class="calc-pills-row">
-<button class="calc-pill active" data-calc-temp="Iced" type="button">🧊 Iced (Standard)</button>
-<button class="calc-pill" data-calc-temp="Hot" type="button">☕ Hot</button>
-<button class="calc-pill" data-calc-temp="Blended Chiller" type="button">🍧 Blended Chiller</button>
-</div>
-</div>
-<!-- 3. Cup Size -->
-<div class="calc-form-group">
-<label class="calc-form-label">3. Cup Size</label>
-<div class="calc-pills-row">
-<button class="calc-pill" data-calc-size="small" type="button">Small (16 oz Iced / 12 oz Hot)</button>
-<button class="calc-pill active" data-calc-size="medium" type="button">Medium (24 oz Iced / 16 oz Hot)</button>
-<button class="calc-pill" data-calc-size="large" type="button">Large (32 oz Iced / 20 oz Hot)</button>
-</div>
-</div>
-<!-- 4. Milk / Dairy Selection -->
-<div class="calc-form-group">
-<label class="calc-form-label" for="calcMilkSelect">4. Milk &amp; Dairy Variety</label>
-<select class="calc-select" id="calcMilkSelect">
-<option selected="" value="breve">Breve (Half &amp; Half) - Standard 7 Brew Base (40 cal/oz)</option>
-<option value="whole">Whole Milk (18.7 cal/oz)</option>
-<option value="skim">Skim / Nonfat Milk (11 cal/oz)</option>
-<option value="oat">Pacific Barista Oat Milk ($0 Free Swap - 16 cal/oz)</option>
-<option value="almond">Unsweetened Almond Milk ($0 Free Swap - 5 cal/oz)</option>
-<option value="coconut">Coconut Milk ($0 Free Swap - 8.7 cal/oz)</option>
-<option value="heavy-cream">Heavy Whipping Cream Splash (Keto Choice)</option>
-<option value="none">None / Black / Water Base (0 cal)</option>
-</select>
-</div>
-<!-- 5. Sweetness & Sugar Options -->
-<div class="calc-form-group">
-<label class="calc-form-label" for="calcSweetnessSelect">5. Sweetness &amp; Syrup Type</label>
-<select class="calc-select" id="calcSweetnessSelect">
-<option selected="" value="standard">Standard Sweetness (Full Cane Sugar Syrups)</option>
-<option value="half">Half Sweet (50% Syrups - Cut 30 cal &amp; 7.5g Sugar)</option>
-<option value="quarter">Quarter Sweet (25% Syrups - Cut 45 Cal &amp; 11g Sugar)</option>
-<option value="sugar-free">100% Sugar-Free (Torani SF Syrups - 0g Added Sugar)</option>
-<option value="unsweetened">Unsweetened (0 Pumps / Plain Coffee or Tea)</option>
-</select>
-</div>
-<!-- 6. Add-ons & Toppings -->
-<div class="calc-form-group">
-<label class="calc-form-label">6. Toppings &amp; Add-ons</label>
-<div class="calc-addons-grid">
-<label class="calc-addon-item">
-<input class="calc-addon-check" type="checkbox" value="cold-foam"/>
-<span>Sweet Cream Cold Foam (+110 cal)</span>
-</label>
-<label class="calc-addon-item">
-<input class="calc-addon-check" type="checkbox" value="whipped-cream"/>
-<span>Whipped Cream (+70 cal)</span>
-</label>
-<label class="calc-addon-item">
-<input class="calc-addon-check" type="checkbox" value="caramel-drizzle"/>
-<span>Caramel Drizzle (+45 cal)</span>
-</label>
-<label class="calc-addon-item">
-<input class="calc-addon-check" type="checkbox" value="mocha-drizzle"/>
-<span>Mocha Drizzle (+40 cal)</span>
-</label>
-<label class="calc-addon-item">
-<input class="calc-addon-check" type="checkbox" value="extra-shot"/>
-<span>Extra Espresso Shot (+5 cal, +75mg)</span>
-</label>
-</div>
-</div>
-</div>
-<!-- Right Column: Nutrition Facts Output Panel -->
-<div class="nutrition-calc-output">
-<div class="nutrition-facts-panel">
-<div class="nutrition-facts-header">
-<h3 class="nutrition-facts-title">Nutrition Facts</h3>
-<span class="nutrition-facts-subtitle">Calculated 7 Brew Serving</span>
-</div>
-<div class="nutrition-calories-row">
-<span class="nutrition-calories-label">Calories</span>
-<span class="nutrition-calories-val" id="calcOutputCalories">540</span>
-</div>
-<!-- Macros Table -->
-<table class="nutrition-macros-table">
-<tbody>
-<tr>
-<td><strong>Total Fat</strong></td>
-<td id="calcOutputFat">36g</td>
-</tr>
-<tr>
-<td><strong>Total Carbohydrates</strong></td>
-<td id="calcOutputCarbs">48g</td>
-</tr>
-<tr style="background:#F0FDF4;">
-<td style="color:#059669;"><strong>Net Carbs (Keto Metric)</strong></td>
-<td id="calcOutputNetCarbs" style="color:#059669;">48g</td>
-</tr>
-<tr>
-<td>  Total Sugars / Added Sugar</td>
-<td id="calcOutputSugar">42g</td>
-</tr>
-<tr>
-<td><strong>Protein</strong></td>
-<td id="calcOutputProtein">8g</td>
-</tr>
-<tr>
-<td><strong>Caffeine Content</strong></td>
-<td id="calcOutputCaffeine">225 mg</td>
-</tr>
-<tr>
-<td><strong>Estimated Drive-Thru Price</strong></td>
-<td id="calcOutputPrice" style="color:var(--brew-crimson); font-weight:800;">$5.25</td>
-</tr>
-</tbody>
-</table>
-<!-- Dietary Tags -->
-<div class="nutrition-diet-tags" id="calcDietTags">
-<span class="nutrition-diet-tag high-caffeine">⚡ High Caffeine (200mg+)</span>
-</div>
-<!-- Drive-thru Verbal Script -->
-<div class="nutrition-script-box">
-<span class="nutrition-script-title">🗣️ Drive-Thru Verbal Order Script</span>
-<div class="nutrition-script-text" id="calcScriptText">
-                  "Can I get a Medium Iced The Blondie made Breve?"
-                </div>
-<button class="nutrition-copy-btn" id="calcCopyBtn" type="button">
-                  📋 Copy Order Script
-                </button>
-</div>
-</div>
-</div>
-</div>
+<p style="margin-top:8px;"><a class="btn btn-primary" href="calculator">Open the 7 Brew calculator →</a></p>
+<p style="font-size:0.9rem; margin-top:10px;">It covers 24 popular builds with milk and sweetness swaps. The full calorie tables for all 128 published drinks are further down this page.</p>
 </section>
 <!-- Calorie Matrix Table -->
 <div class="master-table-card" style="margin-bottom:36px;">
@@ -760,7 +588,7 @@
 <tr><th scope="row" style="font-weight:600;">Vanilla Latte</th><td>380</td><td>530</td><td>760</td><td>252 mg</td></tr>
 <tr><th scope="row" style="font-weight:600;">White Chocolate Mocha</th><td>470</td><td>660</td><td>930</td><td>260 mg</td></tr>
 </tbody></table></div>
-<p style="font-size:0.9rem;">Kids sizes are published too and are not shown here. Where the guide lists more than one value for a drink, the table shows the range. Use the <a href="#nutritionCalculatorSection">calculator above</a> to build a custom drink.</p>
+<p style="font-size:0.9rem;">Kids sizes are published too and are not shown here. Where the guide lists more than one value for a drink, the table shows the range. Use the <a href="calculator">calculator above</a> to build a custom drink.</p>
 <!-- DRINKS:CALORIE-MENU:END -->
 <!-- Starbucks Comparison -->
 <div class="section-header">
