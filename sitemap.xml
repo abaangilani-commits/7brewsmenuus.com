@@ -4834,6 +4834,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://7brewsmenuus.com/blondie-cold-brew</loc>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://7brewsmenuus.com/blood-orange-7-fizz-soda</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.7</priority>
@@ -4859,6 +4865,12 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/brown-sugar-cinnamon-americano</loc>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/brunette-cold-brew</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>

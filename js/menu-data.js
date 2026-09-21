@@ -1,7 +1,7 @@
 // Prices are estimates; nutrition sources are labelled per item.
 const MENU_DATA = {
   "metadata": {
-    "lastVerified": "Editorial review: September 9, 2026; prices unverified",
+    "lastVerified": "Editorial review: September 21, 2026; names checked against the official drive-thru menu board; prices unverified",
     "locationsCount": "Featured stands",
     "statesCount": "Selected markets",
     "nonDairyPolicy": "Confirm milk options and any surcharge at your stand.",
@@ -1138,14 +1138,14 @@ const MENU_DATA = {
         "large": 6.25
       },
       "calories": {
-        "small": 280.0,
-        "medium": 480.0,
-        "large": 560.0
+        "small": 280,
+        "medium": 480,
+        "large": 560
       },
       "caffeineMg": {
-        "small": 120.0,
-        "medium": 120.0,
-        "large": 240.0
+        "small": 120,
+        "medium": 120,
+        "large": 240
       },
       "nutritionSource": "Official standard iced recipe"
     },
@@ -1180,14 +1180,14 @@ const MENU_DATA = {
         "large": 6.25
       },
       "calories": {
-        "small": 300.0,
-        "medium": 520.0,
-        "large": 600.0
+        "small": 300,
+        "medium": 520,
+        "large": 600
       },
       "caffeineMg": {
-        "small": 120.0,
-        "medium": 120.0,
-        "large": 240.0
+        "small": 120,
+        "medium": 120,
+        "large": 240
       },
       "nutritionSource": "Official standard iced recipe"
     },
@@ -1222,14 +1222,14 @@ const MENU_DATA = {
         "large": 6.25
       },
       "calories": {
-        "small": 290.0,
-        "medium": 510.0,
-        "large": 590.0
+        "small": 290,
+        "medium": 510,
+        "large": 590
       },
       "caffeineMg": {
-        "small": 120.0,
-        "medium": 120.0,
-        "large": 240.0
+        "small": 120,
+        "medium": 120,
+        "large": 240
       },
       "nutritionSource": "Official standard iced recipe"
     },
@@ -1265,14 +1265,14 @@ const MENU_DATA = {
         "large": 6.25
       },
       "calories": {
-        "small": 250.0,
-        "medium": 370.0,
-        "large": 500.0
+        "small": 250,
+        "medium": 370,
+        "large": 500
       },
       "caffeineMg": {
-        "small": 120.0,
-        "medium": 120.0,
-        "large": 240.0
+        "small": 120,
+        "medium": 120,
+        "large": 240
       },
       "nutritionSource": "Official standard iced recipe"
     },
@@ -1308,14 +1308,14 @@ const MENU_DATA = {
         "large": 6.25
       },
       "calories": {
-        "small": 220.0,
-        "medium": 340.0,
-        "large": 450.0
+        "small": 220,
+        "medium": 340,
+        "large": 450
       },
       "caffeineMg": {
-        "small": 120.0,
-        "medium": 120.0,
-        "large": 240.0
+        "small": 120,
+        "medium": 120,
+        "large": 240
       },
       "nutritionSource": "Official standard iced recipe"
     },
@@ -1351,14 +1351,14 @@ const MENU_DATA = {
         "large": 6.25
       },
       "calories": {
-        "small": 300.0,
-        "medium": 520.0,
-        "large": 600.0
+        "small": 300,
+        "medium": 520,
+        "large": 600
       },
       "caffeineMg": {
-        "small": 120.0,
-        "medium": 120.0,
-        "large": 240.0
+        "small": 120,
+        "medium": 120,
+        "large": 240
       },
       "nutritionSource": "Official standard iced recipe"
     },
@@ -1396,14 +1396,14 @@ const MENU_DATA = {
         "large": 6.25
       },
       "calories": {
-        "small": 330.0,
-        "medium": 580.0,
-        "large": 660.0
+        "small": 330,
+        "medium": 580,
+        "large": 660
       },
       "caffeineMg": {
-        "small": 120.0,
-        "medium": 120.0,
-        "large": 240.0
+        "small": 120,
+        "medium": 120,
+        "large": 240
       },
       "nutritionSource": "Official standard iced recipe"
     },
@@ -1446,47 +1446,6 @@ const MENU_DATA = {
         "small": 150,
         "medium": 225,
         "large": 300
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "triple-7",
-      "name": "Triple 7 (6 Shots)",
-      "image": "assets/products/category-classics.webp",
-      "imageAlt": "7 Classics category photo",
-      "category": "secret-menu",
-      "badge": "Confirm recipe locally",
-      "tagline": "6 Shots Espresso + Irish Cream & White Choc",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
-      "availableAs": [
-        "Iced",
-        "Hot",
-        "Chiller"
-      ],
-      "flavors": [
-        "White Chocolate",
-        "Irish Cream"
-      ],
-      "base": "6x Espresso Shots + Breve",
-      "tags": [
-        "high-caffeine"
-      ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
-      "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5.5,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 430,
-        "medium": 610,
-        "large": 800
-      },
-      "caffeineMg": {
-        "small": 300,
-        "medium": 375,
-        "large": 450
       },
       "nutritionSource": "Illustrative recipe estimate"
     },
@@ -1732,6 +1691,86 @@ const MENU_DATA = {
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "image": "",
+      "imageAlt": "",
+      "category": "classics",
+      "badge": "Official menu board",
+      "tagline": "Cupcake, Irish Cream or French Vanilla",
+      "desc": "Listed on the official 7 Brew drive-thru board. Nutrition from 7 Brew's published guide; price is an estimate.",
+      "availableAs": [
+        "Iced",
+        "Hot"
+      ],
+      "flavors": [
+        "Cupcake",
+        "Irish Cream",
+        "French Vanilla"
+      ],
+      "base": "",
+      "tags": [
+        "official-board"
+      ],
+      "imageCaption": "",
+      "imageSource": "https://7brew.com/menu",
+      "pricing": {
+        "small": 4.25,
+        "medium": 4.95,
+        "large": 5.75
+      },
+      "calories": {
+        "small": 90,
+        "medium": 130,
+        "large": 150
+      },
+      "caffeineMg": {
+        "small": 120,
+        "medium": 120,
+        "large": 240
+      }
+    },
+    {
+      "id": "americano",
+      "name": "Americano",
+      "image": "",
+      "imageAlt": "",
+      "category": "classics",
+      "badge": "Official menu board",
+      "tagline": "Brown Sugar Cinnamon, Hazelnut or Dark Chocolate",
+      "desc": "Listed on the official 7 Brew drive-thru board. Nutrition from 7 Brew's published guide; price is an estimate.",
+      "availableAs": [
+        "Iced",
+        "Hot"
+      ],
+      "flavors": [
+        "Brown Sugar Cinnamon",
+        "Hazelnut",
+        "Dark Chocolate"
+      ],
+      "base": "",
+      "tags": [
+        "official-board"
+      ],
+      "imageCaption": "",
+      "imageSource": "https://7brew.com/menu",
+      "pricing": {
+        "small": 4.25,
+        "medium": 4.95,
+        "large": 5.75
+      },
+      "calories": {
+        "small": 0,
+        "medium": 0,
+        "large": 0
+      },
+      "caffeineMg": {
+        "small": 120,
+        "medium": 9,
+        "large": 240
+      }
+    },
+    {
       "id": "heatwave",
       "name": "Heatwave 7 Energy",
       "image": "assets/products/product-heatwave7energy.webp",
@@ -1768,10 +1807,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1811,10 +1850,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1853,10 +1892,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1895,10 +1934,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1938,10 +1977,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -1980,10 +2019,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2021,10 +2060,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2063,10 +2102,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2104,10 +2143,10 @@ const MENU_DATA = {
         "large": 290
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2146,10 +2185,10 @@ const MENU_DATA = {
         "large": 20
       },
       "caffeineMg": {
-          "small": 67,
-          "medium": 105,
-          "large": 133
-        },
+        "small": 67,
+        "medium": 105,
+        "large": 133
+      },
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
@@ -2642,224 +2681,198 @@ const MENU_DATA = {
       "nutritionSource": "Illustrative recipe estimate"
     },
     {
-      "id": "vanilla-shake",
-      "name": "Vanilla Shake",
-      "image": "assets/products/category-shakes.webp",
-      "imageAlt": "Shakes category photo",
-      "category": "shakes",
-      "badge": "Confirm recipe locally",
-      "tagline": "Pure Vanilla Cream Ice Cream Shake",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
+      "id": "fruit-roll-up-lemonade",
+      "name": "Fruit Roll-Up Lemonade",
+      "image": "",
+      "imageAlt": "",
+      "category": "lemonades",
+      "badge": "Official menu board",
+      "tagline": "Lavender & Strawberry",
+      "desc": "Listed on the official 7 Brew drive-thru board. Nutrition from 7 Brew's published guide; price is an estimate.",
       "availableAs": [
-        "Chiller"
+        "Iced",
+        "Hot"
       ],
       "flavors": [
-        "Vanilla"
+        "Lavender",
+        "Strawberry"
       ],
-      "base": "Ice Cream Shake Base",
+      "base": "",
       "tags": [
-        "caffeine-free",
-        "shakes"
+        "official-board"
       ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
+      "imageCaption": "",
       "imageSource": "https://7brew.com/menu",
       "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
+        "small": 2.75,
+        "medium": 3.5,
+        "large": 4.25
       },
       "calories": {
-        "small": 480,
-        "medium": 680,
-        "large": 890
+        "small": 200,
+        "medium": 270,
+        "large": 400
       },
       "caffeineMg": {
         "small": 0,
         "medium": 0,
         "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
+      }
     },
     {
-      "id": "chocolate-shake",
-      "name": "Chocolate Shake",
-      "image": "assets/products/category-shakes.webp",
-      "imageAlt": "Shakes category photo",
-      "category": "shakes",
-      "badge": "Confirm recipe locally",
-      "tagline": "Rich Dark Chocolate Mocha Drizzle",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
+      "id": "cocoberry-lemonade",
+      "name": "Cocoberry Lemonade",
+      "image": "",
+      "imageAlt": "",
+      "category": "lemonades",
+      "badge": "Official menu board",
+      "tagline": "Coconut & Raspberry",
+      "desc": "Listed on the official 7 Brew drive-thru board. Nutrition from 7 Brew's published guide; price is an estimate.",
       "availableAs": [
-        "Chiller"
+        "Iced",
+        "Hot"
       ],
       "flavors": [
-        "Dark Chocolate Sauce"
+        "Coconut",
+        "Raspberry"
       ],
-      "base": "Ice Cream Shake Base",
+      "base": "",
       "tags": [
-        "caffeine-free",
-        "shakes"
+        "official-board"
       ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
+      "imageCaption": "",
       "imageSource": "https://7brew.com/menu",
       "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
+        "small": 2.75,
+        "medium": 3.5,
+        "large": 4.25
       },
       "calories": {
-        "small": 520,
-        "medium": 720,
-        "large": 940
+        "small": 210,
+        "medium": 280,
+        "large": 420
       },
       "caffeineMg": {
         "small": 0,
         "medium": 0,
         "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
+      }
     },
     {
-      "id": "strawberry-shake",
-      "name": "Strawberry Shake",
-      "image": "assets/products/category-shakes.webp",
-      "imageAlt": "Shakes category photo",
-      "category": "shakes",
-      "badge": "Confirm recipe locally",
-      "tagline": "Real Strawberry Puree & Ice Cream",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
+      "id": "key-lime-pie-lemonade",
+      "name": "Key Lime Pie Lemonade",
+      "image": "",
+      "imageAlt": "",
+      "category": "lemonades",
+      "badge": "Official menu board",
+      "tagline": "Lemon, Lime & White Chocolate",
+      "desc": "Listed on the official 7 Brew drive-thru board. Nutrition from 7 Brew's published guide; price is an estimate.",
       "availableAs": [
-        "Chiller"
+        "Iced",
+        "Hot"
       ],
       "flavors": [
-        "Strawberry Puree"
-      ],
-      "base": "Ice Cream Shake Base",
-      "tags": [
-        "caffeine-free",
-        "shakes"
-      ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
-      "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 490,
-        "medium": 690,
-        "large": 910
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "salted-caramel-shake",
-      "name": "Salted Caramel Shake",
-      "image": "assets/products/product-saltedcaramelshake.webp",
-      "imageAlt": "Salted Caramel Shake — image supplied by 7 Brew",
-      "category": "shakes",
-      "badge": "Official catalog",
-      "tagline": "Salted Caramel",
-      "desc": "Listed in the official Shakes collection. Confirm your preferred preparation and any customizations at the stand.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Salted Caramel"
-      ],
-      "base": "Ice Cream Shake Base",
-      "tags": [
-        "caffeine-free",
-        "shakes"
-      ],
-      "imageCaption": "Product image: 7 Brew.",
-      "imageSource": "https://7brew.com/menu/shakes/salted-caramel-shake",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 510,
-        "medium": 710,
-        "large": 930
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "cookies-and-cream-shake",
-      "name": "Cookies & Cream Shake",
-      "image": "assets/products/product-cookiescreamshake.webp",
-      "imageAlt": "Cookies & Cream Shake — image supplied by 7 Brew",
-      "category": "shakes",
-      "badge": "Official catalog",
-      "tagline": "Cupcake + Dark Chocolate + White Chocolate",
-      "desc": "Listed in the official Shakes collection. Confirm your preferred preparation and any customizations at the stand.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Cupcake",
-        "Dark Chocolate",
+        "Lemon",
+        "Lime",
         "White Chocolate"
       ],
-      "base": "Ice Cream Shake Base",
+      "base": "",
       "tags": [
-        "caffeine-free",
-        "bestseller",
-        "shakes"
+        "official-board"
       ],
-      "imageCaption": "Product image: 7 Brew.",
-      "imageSource": "https://7brew.com/menu/shakes/cookies-and-cream-shake",
+      "imageCaption": "",
+      "imageSource": "https://7brew.com/menu",
       "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
+        "small": 2.75,
+        "medium": 3.5,
+        "large": 4.25
       },
       "calories": {
-        "small": 540,
-        "medium": 750,
-        "large": 980
+        "small": 210,
+        "medium": 280,
+        "large": 420
       },
       "caffeineMg": {
         "small": 0,
         "medium": 0,
         "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
+      }
     },
     {
-      "id": "cookie-butter-shake",
-      "name": "Cookie Butter Shake",
-      "image": "assets/products/category-shakes.webp",
-      "imageAlt": "Shakes category photo",
-      "category": "shakes",
-      "badge": "Confirm recipe locally",
-      "tagline": "Toasted Marshmallow, Hazelnut & White Choc",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
+      "id": "banana-strawberry-smoothie",
+      "name": "Banana Strawberry Smoothie",
+      "image": "",
+      "imageAlt": "",
+      "category": "smoothies",
+      "badge": "Official menu board",
+      "tagline": "Banana & Strawberry",
+      "desc": "Listed on the official 7 Brew drive-thru board. 7 Brew does not publish nutrition figures for smoothies, so no calorie count is shown. Price is an estimate.",
       "availableAs": [
-        "Chiller"
+        "Blended"
       ],
       "flavors": [
-        "Toasted Marshmallow",
-        "Hazelnut",
-        "White Chocolate"
+        "Banana",
+        "Strawberry"
       ],
-      "base": "Ice Cream Shake Base",
+      "base": "",
       "tags": [
-        "caffeine-free",
-        "shakes"
+        "official-board"
+      ],
+      "imageCaption": "",
+      "imageSource": "https://7brew.com/menu",
+      "pricing": {
+        "small": 5.25,
+        "medium": 6.25,
+        "large": 7.25
+      }
+    },
+    {
+      "id": "tiki-tango-mango-smoothie",
+      "name": "Tiki Tango Mango Smoothie",
+      "image": "",
+      "imageAlt": "",
+      "category": "smoothies",
+      "badge": "Official menu board",
+      "tagline": "Passion Fruit & Pineapple",
+      "desc": "Listed on the official 7 Brew drive-thru board. 7 Brew does not publish nutrition figures for smoothies, so no calorie count is shown. Price is an estimate.",
+      "availableAs": [
+        "Blended"
+      ],
+      "flavors": [
+        "Passion Fruit",
+        "Pineapple"
+      ],
+      "base": "",
+      "tags": [
+        "official-board"
+      ],
+      "imageCaption": "",
+      "imageSource": "https://7brew.com/menu",
+      "pricing": {
+        "small": 5.25,
+        "medium": 6.25,
+        "large": 7.25
+      }
+    },
+    {
+      "id": "tigers-blood-pina-colada-smoothie",
+      "name": "Tiger's Blood Piña Colada Smoothie",
+      "image": "assets/products/category-smoothies.webp",
+      "imageAlt": "Smoothies category photo",
+      "category": "smoothies",
+      "badge": "Official menu board",
+      "tagline": "Coconut & Strawberry",
+      "desc": "Listed on the official 7 Brew drive-thru board. 7 Brew does not publish nutrition figures for smoothies, so no calorie count is shown. Price is an estimate.",
+      "availableAs": [
+        "Blended"
+      ],
+      "flavors": [
+        "Coconut",
+        "Strawberry"
+      ],
+      "base": "",
+      "tags": [
+        "official-board"
       ],
       "imageCaption": "Official category photo; exact custom drink is not pictured.",
       "imageSource": "https://7brew.com/menu",
@@ -2867,99 +2880,36 @@ const MENU_DATA = {
         "small": 5.25,
         "medium": 6.25,
         "large": 7.25
-      },
-      "calories": {
-        "small": 530,
-        "medium": 740,
-        "large": 960
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
+      }
     },
     {
-      "id": "birthday-cake-shake",
-      "name": "Birthday Cake Shake",
-      "image": "assets/products/product-birthdaycakeshake.webp",
-      "imageAlt": "Birthday Cake Shake — image supplied by 7 Brew",
-      "category": "shakes",
-      "badge": "Official catalog",
-      "tagline": "Cupcake + White Chocolate",
-      "desc": "Listed in the official Shakes collection. Confirm your preferred preparation and any customizations at the stand.",
+      "id": "blackberry-cobbler-wildberry-smoothie",
+      "name": "Blackberry Cobbler Wildberry Smoothie",
+      "image": "",
+      "imageAlt": "",
+      "category": "smoothies",
+      "badge": "Official menu board",
+      "tagline": "Blackberry, Cupcake & White Chocolate",
+      "desc": "Listed on the official 7 Brew drive-thru board. 7 Brew does not publish nutrition figures for smoothies, so no calorie count is shown. Price is an estimate.",
       "availableAs": [
-        "Chiller"
+        "Blended"
       ],
       "flavors": [
+        "Blackberry",
         "Cupcake",
         "White Chocolate"
       ],
-      "base": "Ice Cream Shake Base",
+      "base": "",
       "tags": [
-        "caffeine-free",
-        "shakes"
+        "official-board"
       ],
-      "imageCaption": "Product image: 7 Brew.",
-      "imageSource": "https://7brew.com/menu/shakes/birthday-cake-shake",
+      "imageCaption": "",
+      "imageSource": "https://7brew.com/menu",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
         "large": 7.25
-      },
-      "calories": {
-        "small": 520,
-        "medium": 730,
-        "large": 950
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "orange-sherbet-shake",
-      "name": "Orange Sherbet Shake",
-      "image": "assets/products/product-orangesherbetshake.webp",
-      "imageAlt": "Orange Sherbet Shake — image supplied by 7 Brew",
-      "category": "shakes",
-      "badge": "Official catalog",
-      "tagline": "Orange + Strawberry + Vanilla",
-      "desc": "Listed in the official chiller-nights:Picnic & Chill collection. Confirm your preferred preparation and any customizations at the stand.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Orange",
-        "Strawberry",
-        "Vanilla"
-      ],
-      "base": "Ice Cream Shake Base",
-      "tags": [
-        "caffeine-free",
-        "shakes"
-      ],
-      "imageCaption": "Product image: 7 Brew.",
-      "imageSource": "https://7brew.com/chiller-nights/orange-sherbet-shake",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 490,
-        "medium": 690,
-        "large": 910
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
+      }
     },
     {
       "id": "rocky-road-shake",
@@ -2967,39 +2917,153 @@ const MENU_DATA = {
       "image": "assets/products/product-rockyroadshake.webp",
       "imageAlt": "Rocky Road Shake — image supplied by 7 Brew",
       "category": "shakes",
-      "badge": "Official catalog",
-      "tagline": "Toasted Marshmallow + Hazelnut + Caramel",
-      "desc": "Listed in the official Shakes collection. Confirm your preferred preparation and any customizations at the stand.",
+      "badge": "Official menu board",
+      "tagline": "Toasted Marshmallow, Hazelnut & Caramel",
+      "desc": "Listed on the official 7 Brew drive-thru board. 7 Brew does not publish nutrition figures for shakes, so no calorie count is shown. Price is an estimate.",
       "availableAs": [
-        "Chiller"
+        "Blended"
       ],
       "flavors": [
         "Toasted Marshmallow",
         "Hazelnut",
         "Caramel"
       ],
-      "base": "Vanilla Ice Cream Shake Mix",
+      "base": "",
       "tags": [
-        "dessert",
-        "sugar-free-available",
-        "official-shake"
+        "official-board"
       ],
       "imageCaption": "Product image: 7 Brew.",
-      "imageSource": "https://7brew.com/menu/shakes/rocky-road-shake",
+      "imageSource": "https://7brew.com/menu",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
         "large": 7.25
+      }
+    },
+    {
+      "id": "cookies-cream-shake",
+      "name": "Cookies & Cream Shake",
+      "image": "assets/products/product-cookiescreamshake.webp",
+      "imageAlt": "Cookies & Cream Shake — image supplied by 7 Brew",
+      "category": "shakes",
+      "badge": "Official menu board",
+      "tagline": "Cupcake, Dark Chocolate & White Chocolate",
+      "desc": "Listed on the official 7 Brew drive-thru board. 7 Brew does not publish nutrition figures for shakes, so no calorie count is shown. Price is an estimate.",
+      "availableAs": [
+        "Blended"
+      ],
+      "flavors": [
+        "Cupcake",
+        "Dark Chocolate",
+        "White Chocolate"
+      ],
+      "base": "",
+      "tags": [
+        "official-board"
+      ],
+      "imageCaption": "Product image: 7 Brew.",
+      "imageSource": "https://7brew.com/menu",
+      "pricing": {
+        "small": 5.25,
+        "medium": 6.25,
+        "large": 7.25
+      }
+    },
+    {
+      "id": "orange-sherbet-shake",
+      "name": "Orange Sherbet Shake",
+      "image": "assets/products/product-orangesherbetshake.webp",
+      "imageAlt": "Orange Sherbet Shake — image supplied by 7 Brew",
+      "category": "shakes",
+      "badge": "Official menu board",
+      "tagline": "Orange, Strawberry & Vanilla",
+      "desc": "Listed on the official 7 Brew drive-thru board. 7 Brew does not publish nutrition figures for shakes, so no calorie count is shown. Price is an estimate.",
+      "availableAs": [
+        "Blended"
+      ],
+      "flavors": [
+        "Orange",
+        "Strawberry",
+        "Vanilla"
+      ],
+      "base": "",
+      "tags": [
+        "official-board"
+      ],
+      "imageCaption": "Product image: 7 Brew.",
+      "imageSource": "https://7brew.com/menu",
+      "pricing": {
+        "small": 5.25,
+        "medium": 6.25,
+        "large": 7.25
+      }
+    },
+    {
+      "id": "birthday-cake-shake",
+      "name": "Birthday Cake Shake",
+      "image": "assets/products/product-birthdaycakeshake.webp",
+      "imageAlt": "Birthday Cake Shake — image supplied by 7 Brew",
+      "category": "shakes",
+      "badge": "Official menu board",
+      "tagline": "Cupcake & White Chocolate",
+      "desc": "Listed on the official 7 Brew drive-thru board. 7 Brew does not publish nutrition figures for shakes, so no calorie count is shown. Price is an estimate.",
+      "availableAs": [
+        "Blended"
+      ],
+      "flavors": [
+        "Cupcake",
+        "White Chocolate"
+      ],
+      "base": "",
+      "tags": [
+        "official-board"
+      ],
+      "imageCaption": "Product image: 7 Brew.",
+      "imageSource": "https://7brew.com/menu",
+      "pricing": {
+        "small": 5.25,
+        "medium": 6.25,
+        "large": 7.25
+      }
+    },
+    {
+      "id": "triple-7",
+      "name": "Triple 7 (6 Shots)",
+      "image": "assets/products/category-classics.webp",
+      "imageAlt": "7 Classics category photo",
+      "category": "secret-menu",
+      "badge": "Confirm recipe locally",
+      "tagline": "6 Shots Espresso + Irish Cream & White Choc",
+      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
+      "availableAs": [
+        "Iced",
+        "Hot",
+        "Chiller"
+      ],
+      "flavors": [
+        "White Chocolate",
+        "Irish Cream"
+      ],
+      "base": "6x Espresso Shots + Breve",
+      "tags": [
+        "high-caffeine"
+      ],
+      "imageCaption": "Official category photo; exact custom drink is not pictured.",
+      "imageSource": "https://7brew.com/menu",
+      "pricing": {
+        "small": 5.5,
+        "medium": 6.25,
+        "large": 7.25
       },
       "calories": {
-        "small": 560,
-        "medium": 760,
-        "large": 990
+        "small": 430,
+        "medium": 610,
+        "large": 800
       },
       "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
+        "small": 300,
+        "medium": 375,
+        "large": 450
       },
       "nutritionSource": "Illustrative recipe estimate"
     },
@@ -3289,242 +3353,6 @@ const MENU_DATA = {
         "small": 150,
         "medium": 225,
         "large": 300
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "strawberry-smoothie",
-      "name": "Strawberry Fruit Smoothie",
-      "image": "assets/products/category-smoothies.webp",
-      "imageAlt": "Smoothies category photo",
-      "category": "smoothies",
-      "badge": "Confirm recipe locally",
-      "tagline": "Real Sun-Ripened Strawberry Puree",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Strawberry Puree"
-      ],
-      "base": "Real Fruit Puree Base",
-      "tags": [
-        "smoothie",
-        "caffeine-free",
-        "bestseller"
-      ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
-      "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 290,
-        "medium": 410,
-        "large": 530
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "mango-smoothie",
-      "name": "Mango Fruit Smoothie",
-      "image": "assets/products/category-smoothies.webp",
-      "imageAlt": "Smoothies category photo",
-      "category": "smoothies",
-      "badge": "Confirm recipe locally",
-      "tagline": "Tropical Alphonso Mango Puree",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Mango Puree"
-      ],
-      "base": "Real Fruit Puree Base",
-      "tags": [
-        "smoothie",
-        "caffeine-free"
-      ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
-      "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 280,
-        "medium": 400,
-        "large": 520
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "pina-colada-smoothie",
-      "name": "Piña Colada Smoothie",
-      "image": "assets/products/category-smoothies.webp",
-      "imageAlt": "Smoothies category photo",
-      "category": "smoothies",
-      "badge": "Confirm recipe locally",
-      "tagline": "Sweet Pineapple & Island Coconut",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Pineapple Puree",
-        "Coconut"
-      ],
-      "base": "Real Fruit Puree Base",
-      "tags": [
-        "smoothie",
-        "caffeine-free"
-      ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
-      "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 310,
-        "medium": 440,
-        "large": 570
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "peach-smoothie",
-      "name": "Peach Fruit Smoothie",
-      "image": "assets/products/category-smoothies.webp",
-      "imageAlt": "Smoothies category photo",
-      "category": "smoothies",
-      "badge": "Confirm recipe locally",
-      "tagline": "Orchard Peach Puree Blend",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Peach Puree"
-      ],
-      "base": "Real Fruit Puree Base",
-      "tags": [
-        "smoothie",
-        "caffeine-free"
-      ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
-      "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 280,
-        "medium": 400,
-        "large": 520
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "wildberry-smoothie",
-      "name": "Wildberry Fruit Smoothie",
-      "image": "assets/products/category-smoothies.webp",
-      "imageAlt": "Smoothies category photo",
-      "category": "smoothies",
-      "badge": "Confirm recipe locally",
-      "tagline": "Blackberry, Raspberry & Strawberry",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Wildberry Puree"
-      ],
-      "base": "Real Fruit Puree Base",
-      "tags": [
-        "smoothie",
-        "caffeine-free"
-      ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
-      "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 290,
-        "medium": 420,
-        "large": 540
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
-      "nutritionSource": "Illustrative recipe estimate"
-    },
-    {
-      "id": "blueberry-smoothie",
-      "name": "Blueberry Fruit Smoothie",
-      "image": "assets/products/category-smoothies.webp",
-      "imageAlt": "Smoothies category photo",
-      "category": "smoothies",
-      "badge": "Confirm recipe locally",
-      "tagline": "Antioxidant-Rich Mountain Blueberry",
-      "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
-      "availableAs": [
-        "Chiller"
-      ],
-      "flavors": [
-        "Blueberry Puree"
-      ],
-      "base": "Real Fruit Puree Base",
-      "tags": [
-        "smoothie",
-        "caffeine-free"
-      ],
-      "imageCaption": "Official category photo; exact custom drink is not pictured.",
-      "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5.25,
-        "medium": 6.25,
-        "large": 7.25
-      },
-      "calories": {
-        "small": 285,
-        "medium": 410,
-        "large": 530
-      },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
       },
       "nutritionSource": "Illustrative recipe estimate"
     }

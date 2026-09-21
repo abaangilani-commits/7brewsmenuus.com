@@ -1,0 +1,70 @@
+{
+  "source": "7 Brew drive-thru menu board PDF (©2025 Brew Culture Franchise, LLC), supplied 2026-09-21",
+  "note": "Names and flavour lines transcribed from the official board for fact-checking our own data. The artwork itself is 7 Brew's copyright and is not republished.",
+  "categories": {
+    "7 Originals": [
+      { "name": "Blondie", "flavors": "Vanilla & Caramel Breve" },
+      { "name": "Sweet & Salty", "flavors": "Salted Caramel & White Chocolate Breve" },
+      { "name": "Cinnamon Roll", "flavors": "Brown Sugar Cinnamon & White Chocolate Breve" },
+      { "name": "Brunette", "flavors": "Hazelnut & Caramel Mocha" },
+      { "name": "Banana Bread", "flavors": "Banana & Hazelnut Mocha" },
+      { "name": "Smooth 7", "flavors": "Irish Cream & White Chocolate Breve" },
+      { "name": "Cookie Butter", "flavors": "Toasted Marshmallow, Hazelnut & White Chocolate Breve" }
+    ],
+    "Smoothies": [
+      { "name": "Banana Strawberry", "flavors": "Banana" },
+      { "name": "Tiki Tango Mango", "flavors": "Passion Fruit & Pineapple" },
+      { "name": "Tiger's Blood Piña Colada", "flavors": "Coconut & Strawberry" },
+      { "name": "Blackberry Cobbler Wildberry", "flavors": "Blackberry, Cupcake & White Chocolate" }
+    ],
+    "7 Energy": [
+      { "name": "Brewberry", "flavors": "Blue Raspberry & Strawberry" },
+      { "name": "Pixie Stick", "flavors": "Almond, Orange & Pomegranate" },
+      { "name": "Nightshade", "flavors": "Blue Raspberry, Lavender & Pomegranate" },
+      { "name": "Ocean Breeze", "flavors": "Blue Raspberry & Coconut" },
+      { "name": "Tropic Thunder", "flavors": "Mango & Pineapple" },
+      { "name": "Sunrise", "flavors": "Peach & Raspberry" },
+      { "name": "Heatwave", "flavors": "Lemon, Lime & Orange" }
+    ],
+    "7 Fizz": [
+      { "name": "Blood Orange", "flavors": "Orange & Pomegranate" },
+      { "name": "Pink Mermaid", "flavors": "Strawberry, Watermelon & Coconut" },
+      { "name": "Peaches n' Cream", "flavors": "Peach & Vanilla" },
+      { "name": "Brew Lagoon", "flavors": "Blue Raspberry, Coconut & Lime" }
+    ],
+    "Lemonades": [
+      { "name": "Fruit Roll-Up", "flavors": "Lavender & Strawberry" },
+      { "name": "Pink Paradise", "flavors": "Cherry, Watermelon & Raspberry" },
+      { "name": "Cocoberry", "flavors": "Coconut & Raspberry" },
+      { "name": "Key Lime Pie", "flavors": "Lemon, Lime & White Chocolate" }
+    ],
+    "Shakes": [
+      { "name": "Rocky Road", "flavors": "Toasted Marshmallow, Hazelnut & Caramel" },
+      { "name": "Cookies & Cream", "flavors": "Cupcake, Dark Chocolate & White Chocolate" },
+      { "name": "Orange Sherbet", "flavors": "Orange, Strawberry & Vanilla" },
+      { "name": "Birthday Cake", "flavors": "Cupcake & White Chocolate" }
+    ],
+    "Teas, Chai & Matcha": [
+      { "name": "Tea", "flavors": "Georgia Peach | Hula | Cherry Blossom" },
+      { "name": "Chai Latte", "flavors": "Brewchata | Sugar Cookie | Salted Honey" },
+      { "name": "Matcha Latte", "flavors": "Strawberry | Cereal Milk | Cloud 9" }
+    ],
+    "Classics": [
+      { "name": "Latte", "flavors": "Vanilla | Toasted Marshmallow | Crème Brûlée" },
+      { "name": "Mocha", "flavors": "White Chocolate | German Chocolate | Snickerdoodle" },
+      { "name": "Macchiato", "flavors": "Salted Caramel | Funnel Cake | Raspberry Truffle" },
+      { "name": "Breve", "flavors": "Caramel | Honeybun | Frosted Cookie" },
+      { "name": "Cappuccino", "flavors": "Cupcake | Irish Cream | French Vanilla" },
+      { "name": "Americano", "flavors": "Brown Sugar Cinnamon | Hazelnut | Dark Chocolate" },
+      { "name": "Cold Brew", "flavors": "Blondie | Brunette | White Mac" }
+    ]
+  },
+  "customisation": {
+    "Extra shot": "add an extra espresso shot",
+    "Milk alt": "oat, coconut & almond",
+    "Topping": "cream, whipped cream or cold foam",
+    "Flavor": "pick a flavour or a few; sugar-free options available",
+    "Drizzle": "white choc | dark choc or caramel",
+    "Sweetness": "1/4, 1/2, reg, extra"
+  }
+}
