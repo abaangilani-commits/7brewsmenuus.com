@@ -12,6 +12,7 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const { siteNodes } = require('./site-entity');
 
 const ROOT = path.join(__dirname, '..');
 const SITE = 'https://7brewsmenuus.com';
@@ -203,6 +204,7 @@ ${faqDetails(faqs)}
 </section>`;
 
   const graph = [
+    ...siteNodes(),
     { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: title, description, dateModified: REVIEWED, isPartOf: { '@id': `${SITE}/#website` } },
     { '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Menu', item: `${SITE}/` },
@@ -272,6 +274,7 @@ for (const name of DRINKS) {
     ['Can 7 Brew teas be made sugar-free?', 'Yes. Teas and chais can be built with sugar-free syrups, and the guide publishes sugar-free versions of most flavoured teas. See the customization guide.'],
   ];
   const graph = [
+    ...siteNodes(),
     { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: title, description, dateModified: REVIEWED, isPartOf: { '@id': `${SITE}/#website` } },
     { '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Menu', item: `${SITE}/` },

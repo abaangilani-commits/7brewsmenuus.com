@@ -16,6 +16,7 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const { siteNodes } = require('./site-entity');
 
 const ROOT = path.join(__dirname, '..');
 const SITE = 'https://7brewsmenuus.com';
@@ -171,6 +172,7 @@ if (!HEADER.includes('site-header') || !FOOTER.includes('site-footer')) throw ne
 function page({ urlPath, title, description, breadcrumbs, schema, body }) {
   const url = SITE + urlPath;
   const graph = [
+    ...siteNodes(),
     { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: title, description, dateModified: snapshot.checked, isPartOf: { '@id': `${SITE}/#website` } },
     { '@type': 'BreadcrumbList', itemListElement: breadcrumbs.map((b, i) => ({ '@type': 'ListItem', position: i + 1, name: b.name, item: SITE + b.path })) },
     ...schema,

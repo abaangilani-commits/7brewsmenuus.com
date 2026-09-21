@@ -6,6 +6,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const { siteNodes } = require('./site-entity');
 
 const ROOT = path.join(__dirname, '..');
 const SITE = 'https://7brewsmenuus.com';
@@ -101,6 +102,7 @@ const title = '7 Brew Hours: Opening &amp; Closing Times (2026)';
 const description = `Most 7 Brew stands open at ${fmt(typical.Mo.opens)} and close at ${fmt(typical.Mo.closes)}, or ${fmt(typical.Fr.closes)} Friday and Saturday — ${topPct}% of all ${stands.length} stands share the same schedule. Live open/closed check inside.`;
 
 const graph = [
+    ...siteNodes(),
   { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: '7 Brew Hours: Opening & Closing Times (2026)', description, dateModified: TODAY, isPartOf: { '@id': `${SITE}/#website` } },
   { '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Menu', item: `${SITE}/` },
