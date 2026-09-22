@@ -156,8 +156,14 @@ for (const file of fs.readdirSync(ROOT).filter(f => f.endsWith('.html'))) {
     }
   }
 
-  // add an FAQPage only when the page shows FAQs and has no FAQ schema yet
-  if (!/"@type":\s*"FAQPage"/.test(html)) {
+  // Add an FAQPage when the page shows FAQs and has no hand-written FAQ schema.
+  // The managed block is excluded from that test: it is about to be replaced, so
+  // counting the FAQPage we wrote last run would drop it on every re-run.
+  const bStart = html.indexOf(START), bEnd = html.indexOf(END);
+  const outsideBlock = bStart >= 0 && bEnd > bStart
+    ? html.slice(0, bStart) + html.slice(bEnd + END.length)
+    : html;
+  if (!/"@type":\s*"FAQPage"/.test(outsideBlock)) {
     const faqs = extractFaqs(html);
     if (faqs.length >= 3) {
       graph.push({
