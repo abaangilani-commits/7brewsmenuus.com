@@ -49,12 +49,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/disclaimer</loc>
-    <lastmod>2026-09-09</lastmod>
-    <priority>0.2</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/energy-drinks</loc>
     <lastmod>2026-09-09</lastmod>
     <priority>0.8</priority>
@@ -121,12 +115,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/privacy-policy</loc>
-    <lastmod>2026-09-09</lastmod>
-    <priority>0.2</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/seasonal-drinks</loc>
     <lastmod>2026-09-11</lastmod>
     <priority>0.8</priority>
@@ -155,12 +143,6 @@
     <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/terms-of-service</loc>
-    <lastmod>2026-09-09</lastmod>
-    <priority>0.2</priority>
-    <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://7brewsmenuus.com/what-is-7-brew</loc>
@@ -452,79 +434,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/abilene</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/alice</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/amarillo</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/andrews</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/angleton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/bay-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/bellmead</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/belton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/benbrook</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/beverly-hills</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/big-spring</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/brownsville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/brownwood</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -536,157 +446,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/burleson</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/canton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/canyon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/carrollton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/celina</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/cleburne</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/cleveland</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/conroe</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/copperas-cove</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/corpus-christi</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/corsicana</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/dallas</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/decatur</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/del-rio</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/denison</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/dumas</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/eagle-pass</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/edinburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/el-paso</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/ennis</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/fort-worth</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/frisco</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/gainesville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/gatesville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/granbury</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/grand-prairie</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -704,79 +470,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/houston</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/huntsville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/jacksonville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/kilgore</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/killeen</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/la-marque</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/lake-jackson</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/laredo</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/leander</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/levelland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/little-elm</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/livingston</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/longview</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -800,67 +500,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/magnolia</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/manor</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/mansfield</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/marshall</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/mckinney</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/midland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/mineral-wells</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/mission</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/missouri-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/mount-pleasant</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/odessa</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -872,55 +512,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/palestine</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/pampa</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/pasadena</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/pharr</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/plainview</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/pleasanton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/portland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/red-oak</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/rio-grande-city</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -932,55 +524,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/saginaw</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/san-angelo</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/san-antonio</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/sanger</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/seguin</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/snyder</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/spring</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/stephenville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/temple</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -992,133 +536,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tx/texas-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/tomball</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/tyler</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/universal-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tx/victoria</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/waco</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/waxahachie</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/weatherford</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/webster</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tx/wichita-falls</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/belleview</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/bradenton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/brooksville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/clermont</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/crestview</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/davenport</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/daytona-beach</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/deland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/fernandina-beach</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/fort-myers</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/fort-pierce</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/fort-walton-beach</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1130,121 +548,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/fl/gulf-breeze</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/holiday</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/jacksonville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/kissimmee</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/lake-worth</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/fl/leesburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/live-oak</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/lynn-haven</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/mary-esther</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/melbourne</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/middleburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/milton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/navarre</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/niceville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/okeechobee</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/orlando</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/pace</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/palm-bay</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/panama-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/pensacola</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1256,49 +560,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/fl/port-st-lucie</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/rockledge</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/spring-hill</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/tallahassee</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/fl/tampa</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/west-palm-beach</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/winter-haven</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/fl/winter-springs</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1310,25 +572,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/oh/beavercreek</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/bellefontaine</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/oh/brunswick</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/canton</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1340,55 +584,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/oh/cincinnati</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/columbus</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/cuyahoga-falls</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/dayton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/defiance</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/oh/delaware</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/greenville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/hamilton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/heath</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1412,79 +608,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/oh/lewis-center</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/oh/lima</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/lyndhurst</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/marion</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/massillon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/maumee</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/middleburg-heights</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/newark</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/north-canton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/oregon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/parma-heights</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/parma</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/perrysburg</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1496,43 +620,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/oh/sheffield-village</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/oh/sidney</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/springboro</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/springfield</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/stow</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/tiffin</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/toledo</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1556,18 +644,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/oh/west-chester-township</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/oh/westlake</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/oh/willoughby</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -1575,18 +651,6 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/locations/oh/zanesville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/arnold</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/blue-springs</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1604,139 +668,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/mo/cape-girardeau</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/mo/columbia</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/cottleville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/ellisville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/farmington</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/festus</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/florissant</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/independence</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/jefferson-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/joplin</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/kansas-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/kirkwood</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/lake-st-louis</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/lebanon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/lees-summit</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/neosho</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/nixa</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/ofallon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/ozark</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/republic</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/rolla</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/sedalia</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/sikeston</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1748,223 +680,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/mo/st-charles</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/st-louis</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/st-peters</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/troy</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/university-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/warrensburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/warson-woods</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/webb-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/wentzville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mo/west-plains</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/batesville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/beebe</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/benton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/bentonville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/bryant</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/cabot</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/conway</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/el-dorado</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ar/farmington</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ar/fayetteville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/fort-smith</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/harrison</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/hot-springs</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ar/jonesboro</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/little-rock</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/lowell</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/mountain-home</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/north-little-rock</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/paragould</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/pea-ridge</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/rogers</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/russellville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/searcy</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/siloam-springs</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/springdale</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ar/van-buren</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/alabaster</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -1982,48 +704,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/al/bay-minette</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/birmingham</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/calera</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/chelsea</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/cullman</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/daphne</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/decatur</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/al/dothan</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -2036,25 +716,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/al/fairhope</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/al/florence</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/foley</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/fultondale</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2072,18 +734,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/al/homewood</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/huntsville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/al/jacksonville</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -2096,97 +746,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/al/millbrook</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/mobile</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/montgomery</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/moody</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/al/opelika</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/al/owens-cross-roads</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/troy</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/trussville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/al/tuscaloosa</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/al/wetumpka</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/anderson</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/aurora</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/avon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/brownsburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/crown-point</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/dyer</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2204,31 +770,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/in/greenwood</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/indianapolis</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/jeffersonville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/in/kokomo</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/la-porte</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2240,55 +782,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/in/lebanon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/marion</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/merrillville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/mooresville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/muncie</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/new-albany</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/in/newburgh</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/plainfield</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/shelbyville</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2300,25 +794,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/in/valparaiso</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/in/west-lafayette</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ga/athens</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/augusta</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2330,25 +806,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ga/calhoun</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ga/columbus</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/cordele</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/cornelia</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2360,133 +818,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ga/flowery-branch</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/griffin</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/grovetown</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/hinesville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/johns-creek</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/kennesaw</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/kingsland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/lawrenceville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/leesburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/lilburn</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/mableton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/macon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/milledgeville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/milton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/moultrie</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ga/pooler</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/savannah</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/sharpsburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/snellville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/stockbridge</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/thomaston</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ga/thomasville</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2510,37 +842,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tn/athens</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/bartlett</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/bristol</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/chattanooga</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tn/clarksville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/columbia</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2552,25 +854,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tn/elizabethton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/goodlettsville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tn/greeneville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/harriman</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2588,115 +872,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tn/kingsport</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tn/knoxville</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/tn/la-vergne</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/lawrenceburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/lenoir-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/madison</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/manchester</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/memphis</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/tn/morristown</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/mt-juliet</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/murfreesboro</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/nashville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/ooltewah</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/paris</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/shelbyville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/smyrna</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/springfield</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/tullahoma</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/tn/white-house</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2720,25 +902,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/il/bradley</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/il/carbondale</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/il/carpentersville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/il/champaign</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2762,49 +926,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/il/decatur</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/il/east-peoria</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/il/effingham</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/il/galesburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/il/huntley</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/il/jacksonville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/il/joliet</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/il/lake-zurich</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2834,37 +962,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/il/mokena</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/il/mount-vernon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/il/naperville</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/il/palatine</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/il/plainfield</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/il/round-lake-beach</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2888,43 +992,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/il/urbana</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/il/waukegan</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/bowling-green</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/campbellsville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/corbin</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/danville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/elizabethtown</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -2936,67 +1004,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ky/hazard</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ky/henderson</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/hopkinsville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/lexington</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/london</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/louisville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/madisonville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/middletown</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/murray</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/newport</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/nicholasville</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3008,109 +1016,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ky/somerset</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/versailles</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ky/winchester</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/ada</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/altus</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/ardmore</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/bartlesville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/broken-arrow</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/coweta</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/duncan</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/edmond</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/el-reno</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/enid</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/jenks</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ok/lawton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/mcalester</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/miami</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/muskogee</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3122,109 +1028,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ok/oklahoma-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/okmulgee</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/poteau</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/sallisaw</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/skiatook</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/stillwater</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/tahlequah</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/tulsa</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/watts</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/weatherford</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ok/yukon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/baton-rouge</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/la/bossier-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/chalmette</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/deridder</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/gonzales</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/hammond</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/houma</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3237,12 +1041,6 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/locations/la/lake-charles</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/laplace</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3272,49 +1070,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/la/natchitoches</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/ponchatoula</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/ruston</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/la/slidell</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/thibodaux</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/walker</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/west-monroe</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/la/zachary</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3332,12 +1088,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ny/binghamton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ny/brockport</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -3345,30 +1095,6 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/locations/ny/canandaigua</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ny/cheektowaga</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ny/clifton-park</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ny/colonie</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ny/cortland</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3386,25 +1112,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ny/johnstown</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ny/lockport</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ny/new-hartford</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ny/niagara-falls</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3434,25 +1142,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ny/rome</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ny/schenectady</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ny/syracuse</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ny/vestal</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3470,49 +1160,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/nc/albemarle</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/nc/boone</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/nc/denver</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/fayetteville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/nc/goldsboro</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/greensboro</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/greenville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/hendersonville</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3530,103 +1184,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/nc/jacksonville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/laurinburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/lenoir</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/new-bern</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/rockingham</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/shallotte</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/shelby</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/smithfield</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/spring-lake</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nc/wilkesboro</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/derby</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/garden-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/great-bend</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ks/hays</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/lawrence</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/leavenworth</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/liberal</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3638,85 +1196,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ks/olathe</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/overland-park</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/pittsburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/shawnee</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/topeka</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ks/wichita</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/biloxi</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/brookhaven</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/cleveland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/clinton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/columbia</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ms/corinth</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/diberville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/flowood</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3728,49 +1208,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ms/gulfport</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ms/hattiesburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/laurel</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/magee</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/ocean-springs</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/olive-branch</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/oxford</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/pearl</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3782,25 +1220,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ms/vicksburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ms/waveland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/wi/appleton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/wi/bellevue</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3830,24 +1250,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/wi/grand-chute</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/wi/green-bay</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/wi/kenosha</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/wi/la-crosse</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -3860,25 +1262,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/wi/marshfield</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/wi/milwaukee</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/wi/mount-pleasant</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/wi/neenah</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3896,19 +1280,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/wi/west-bend</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/pa/altoona</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/pa/carnot-moon</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3926,19 +1298,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/pa/dubois</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/pa/hanover</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/pa/indiana</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -3962,43 +1322,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/pa/natrona-heights</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/pa/philadelphia</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/pa/pleasant-hills</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/pa/reading</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/pa/red-lion</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/pa/selinsgrove</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/pa/sinking-spring</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4022,121 +1352,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/sc/aiken</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/anderson</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/camden</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/columbia</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/florence</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/greenville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/greer</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/hilton-head-island</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/myrtle-beach</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/north-augusta</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/north-charleston</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/north-myrtle-beach</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/pawleys-island</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/simpsonville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/spartanburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/summerville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/sc/travelers-rest</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/mi/allen-park</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mi/clinton-township</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mi/grand-blanc</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4172,12 +1388,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/mi/monroe</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/mi/mount-pleasant</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -4196,31 +1406,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/mi/port-huron</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/mi/roseville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mi/traverse-city</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/va/ashland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/va/christiansburg</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4232,37 +1418,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/va/danville</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/va/harrisonburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/va/lynchburg</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/va/midlothian</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/va/newport-news</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/va/portsmouth</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4280,12 +1436,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ia/ames</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ia/ankeny</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -4298,55 +1448,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ia/burlington</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ia/cedar-falls</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ia/cedar-rapids</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ia/clive</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ia/council-bluffs</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ia/des-moines</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ia/marshalltown</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ne/elkhorn</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ne/fremont</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4358,49 +1460,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ne/kearney</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ne/lincoln</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ne/norfolk</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ne/north-platte</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ne/york</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/co/alamosa</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/co/aurora</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/co/colorado-springs</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4412,43 +1472,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/co/firestone</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/co/loveland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/co/montrose</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/co/wheat-ridge</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/nj/clark</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nj/clementon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nj/egg-harbor</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4490,61 +1520,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/nj/vineland</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nm/albuquerque</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nm/artesia</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nm/carlsbad</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/nm/clovis</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/nm/espanola</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/nm/farmington</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nm/hobbs</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nm/rio-rancho</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nm/roswell</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4568,12 +1550,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/mn/maplewood</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/mn/moorhead</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -4592,67 +1568,13 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/mn/willmar</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mn/winona</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ct/bridgeport</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ct/new-haven</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ct/north-haven</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/ct/orange</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/ct/vernon</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ct/wallingford</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ct/waterbury</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/nd/bismarck</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/nd/fargo</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4670,49 +1592,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/nd/west-fargo</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/nd/williston</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ut/millcreek</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ut/payson</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ut/provo</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ut/riverton</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ut/st-george</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/ut/west-valley</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4724,31 +1604,7 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/wv/huntington</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/wv/morgantown</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/wv/wheeling</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/az/queen-creek</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/az/tucson</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -4784,12 +1640,6 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://7brewsmenuus.com/locations/sd/watertown</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>https://7brewsmenuus.com/locations/wy/casper</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
@@ -4809,12 +1659,6 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/locations/ma/west-springfield</loc>
-    <lastmod>2026-09-21</lastmod>
-    <priority>0.6</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/locations/mt/helena</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>

@@ -20,6 +20,13 @@ const { siteNodes } = require('./site-entity');
 
 const ROOT = path.join(__dirname, '..');
 const SITE = 'https://7brewsmenuus.com';
+
+// Which city pages earn their own listing. Google was declining to crawl the long
+// tail ("Discovered - currently not indexed" on 164 URLs), so city pages with no
+// measured search demand are still built and linked, but noindexed and left out of
+// the sitemap. Stand count is deliberately NOT the test: the highest-demand cities
+// are mostly one-stand towns. See tools/city-demand.json for provenance.
+const CITY_DEMAND = require('./city-demand.json').demand;
 const OUT_DIR = path.join(ROOT, 'location-pages');
 const MIN_CITY_STANDS = 1;
 const ASSET_VERSION = '20260912c';
@@ -150,6 +157,8 @@ for (const state of states.values()) {
     city.center = centroid(city.stands);
     city.hasPage = city.stands.length >= MIN_CITY_STANDS || Boolean(notes[city.key]);
     city.path = city.hasPage ? `/locations/${city.key}` : `/locations/${state.code}#${city.slug}`;
+    city.demand = CITY_DEMAND[city.key] || 0;
+    city.indexable = city.demand > 0;
   }
   state.center = centroid(state.stands);
   state.path = `/locations/${state.code}`;
@@ -169,8 +178,12 @@ const HEADER = absolutize(hub.slice(hub.indexOf('<body>') + '<body>'.length, hub
 const FOOTER = absolutize(hub.slice(hub.indexOf('</main>') + '</main>'.length, hub.indexOf('</body>')));
 if (!HEADER.includes('site-header') || !FOOTER.includes('site-footer')) throw new Error('Could not extract header/footer from locations.html');
 
-function page({ urlPath, title, description, breadcrumbs, schema, body }) {
+function page({ urlPath, title, description, breadcrumbs, schema, body, noindex }) {
   const url = SITE + urlPath;
+  // noindex,follow: the page stays reachable and keeps passing link equity to the
+  // state page, it just does not compete for its own listing. Reversible — a city
+  // re-entering city-demand.json gets indexed again on the next build.
+  const robots = noindex ? '<meta content="noindex,follow" name="robots"/>' : '';
   const graph = [
     ...siteNodes(),
     { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: title, description, dateModified: snapshot.checked, isPartOf: { '@id': `${SITE}/#website` } },
@@ -180,7 +193,7 @@ function page({ urlPath, title, description, breadcrumbs, schema, body }) {
   const ld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c');
   const crumbs = breadcrumbs.map((b, i) => i === breadcrumbs.length - 1 ? esc(b.name) : `<a href="${b.path}">${esc(b.name)}</a>`).join(' / ');
   return `<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>${esc(title)}</title><meta content="${esc(description)}" name="description"/><link href="${url}" rel="canonical"/><meta content="${esc(title)}" property="og:title"/><meta content="${esc(description)}" property="og:description"/><meta content="${url}" property="og:url"/><meta content="article" property="og:type"/><meta content="summary_large_image" name="twitter:card"/><meta content="${esc(title)}" name="twitter:title"/><meta content="${esc(description)}" name="twitter:description"/><meta content="${SITE}/assets/products/category-classics.webp" property="og:image"/><meta content="7 Brew classic espresso breve drinks" property="og:image:alt"/><meta content="640" property="og:image:width"/><meta content="640" property="og:image:height"/><link href="/css/styles.css?v=${ASSET_VERSION}" rel="stylesheet"/><link href="/css/modern.css?v=${ASSET_VERSION}" rel="stylesheet"/><link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/favicon.ico" rel="alternate icon" type="image/x-icon"/><link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/><script type="application/ld+json">${ld}</script></head><body>${HEADER}<main class="research-guide container"><nav aria-label="Breadcrumb">${crumbs}</nav><article>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><title>${esc(title)}</title><meta content="${esc(description)}" name="description"/>${robots}<link href="${url}" rel="canonical"/><meta content="${esc(title)}" property="og:title"/><meta content="${esc(description)}" property="og:description"/><meta content="${url}" property="og:url"/><meta content="article" property="og:type"/><meta content="summary_large_image" name="twitter:card"/><meta content="${esc(title)}" name="twitter:title"/><meta content="${esc(description)}" name="twitter:description"/><meta content="${SITE}/assets/products/category-classics.webp" property="og:image"/><meta content="7 Brew classic espresso breve drinks" property="og:image:alt"/><meta content="640" property="og:image:width"/><meta content="640" property="og:image:height"/><link href="/css/styles.css?v=${ASSET_VERSION}" rel="stylesheet"/><link href="/css/modern.css?v=${ASSET_VERSION}" rel="stylesheet"/><link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/><link href="/favicon.ico" rel="alternate icon" type="image/x-icon"/><link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/><script type="application/ld+json">${ld}</script></head><body>${HEADER}<main class="research-guide container"><nav aria-label="Breadcrumb">${crumbs}</nav><article>
 ${body}
 <div class="guide-note">This independent guide is not operated or endorsed by 7 Brew. Addresses and hours come from the official 7 Brew locator, checked ${CHECKED}; hours can change, so confirm on the official stand page before you go. <a href="/about#sources">Sources</a>.</div>
 </article></main>${FOOTER}</body></html>
@@ -326,6 +339,7 @@ ${faqDetails(faqs)}
     urlPath: `/locations/${city.key}`,
     title, description,
     breadcrumbs: [{ name: 'Menu', path: '/' }, { name: 'Locations', path: '/locations' }, { name: state.name, path: state.path }, { name: city.name, path: `/locations/${city.key}` }],
+    noindex: !city.indexable,
     schema: [faqSchema(faqs), ...city.stands.map(s => standSchema(s, city))],
     body,
   });
@@ -436,7 +450,8 @@ replaceBlock('index.html', 'HOME', `<p>Find a stand near you: browse 7 Brew loca
 
 replaceBlock('sitemap.xml', 'SITEMAP', [
   ...stateList.map(s => s.path),
-  ...stateList.flatMap(s => [...s.cities.values()].filter(c => c.hasPage).map(c => c.path)),
+  // only city pages we let Google index belong in the sitemap
+  ...stateList.flatMap(s => [...s.cities.values()].filter(c => c.hasPage && c.indexable).map(c => c.path)),
 ].map(p => `  <url>\n    <loc>${SITE}${p}</loc>\n    <lastmod>${snapshot.checked}</lastmod>\n    <priority>0.6</priority>\n    <changefreq>monthly</changefreq>\n  </url>`).join('\n'));
 
 // Keep the stand count and check date in sync everywhere they appear in prose,
@@ -456,4 +471,8 @@ replaceBlock('sitemap.xml', 'SITEMAP', [
   console.log(`Synced stand count (${total}) and check date (${CHECKED}) across ${touched} pages.`);
 }
 
+const indexableCities = allCities.filter(c => c.hasPage && c.indexable);
+const noindexCities = allCities.filter(c => c.hasPage && !c.indexable);
 console.log(`Built ${stateList.length} state pages and ${cityPages} city pages from ${stands.length} stands (checked ${snapshot.checked}).`);
+console.log(`  indexable city pages: ${indexableCities.length} (${indexableCities.reduce((s, c) => s + c.demand, 0).toLocaleString()} searches/mo)`);
+console.log(`  noindex,follow:       ${noindexCities.length} (no measured demand — built and linked, kept out of the sitemap)`);
