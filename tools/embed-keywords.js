@@ -28,6 +28,8 @@ function write(file, before, after, note) {
 // [question, answer html] — answers must stay true to what the page already says.
 const FAQS = {
   'app-rewards.html': [
+    ['How many points per dollar do you get at 7 Brew?',
+     'None — 7 Brew counts drinks, not dollars. Every qualifying small, medium or large drink earns a flat 100 points whatever it costs, so a $4 drink and a $7 drink are worth the same. 1,000 points is a free drink, which works out to roughly every tenth drink.'],
     ['Does 7 Brew have an app?',
      'Yes. The 7 Brew app is free on iPhone and Android, and it is where the rewards programme lives — points, your balance, redeeming a free drink and mobile ordering at participating stands.'],
     ['How do I log in to 7 Brew Rewards?',
@@ -52,6 +54,8 @@ const FAQS = {
      'No. There is no 7 Brew stock to buy — the company is private, despite steady search interest in a possible 7 Brew IPO.'],
   ],
   'energy-drinks.html': [
+    ['What energy drink does 7 Brew use?',
+     '7 Energy is 7 Brew&rsquo;s own base, mixed at the stand with flavour syrups — it is not a canned brand like Red Bull or Monster poured over ice. The caffeine is lower than most people expect: 67 mg in a small, 105 mg in a medium and 133 mg in a large, against 80 mg in an 8.4 oz Red Bull.'],
     ['What 7 Energy flavors are there?',
      'The menu board lists seven: Brewberry, Pixie Stick, Nightshade, Ocean Breeze, Tropic Thunder, Sunrise and Heatwave. Each is a flavour combination over the same energy base, and all can be ordered sugar-free.'],
     ['Where can I buy 7 Brew energy cans?',

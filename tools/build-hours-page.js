@@ -98,12 +98,15 @@ const faqHtml = faqs.map(([q, a]) =>
   `<details style="background:var(--card-bg, #f8f5f0); border:1px solid var(--border, #e0dcd5); border-radius:10px; padding:14px 18px; margin-bottom:10px;"><summary style="cursor:pointer; font-weight:600;">${esc(q)}</summary><p style="margin-top:8px;">${esc(a)}</p></details>`).join('\n');
 
 const url = `${SITE}/7-brew-hours`;
-const title = '7 Brew Hours: Opening &amp; Closing Times (2026)';
+// The title carries the actual times, because the queries are literally
+// "what time does 7 brew close" — a title that answers gets the click.
+const plainTitle = `7 Brew Hours: Open ${fmt(typical.Mo.opens)}, Close ${fmt(typical.Mo.closes)} (${fmt(typical.Fr.closes)} Fri-Sat)`;
+const title = plainTitle.replace(/&/g, '&amp;');
 const description = `Most 7 Brew stands open at ${fmt(typical.Mo.opens)} and close at ${fmt(typical.Mo.closes)}, or ${fmt(typical.Fr.closes)} Friday and Saturday — ${topPct}% of all ${stands.length} stands share the same schedule. Live open/closed check inside.`;
 
 const graph = [
     ...siteNodes(),
-  { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: '7 Brew Hours: Opening & Closing Times (2026)', description, dateModified: TODAY, isPartOf: { '@id': `${SITE}/#website` } },
+  { '@type': 'WebPage', '@id': `${url}#webpage`, url, name: plainTitle, description, dateModified: TODAY, isPartOf: { '@id': `${SITE}/#website` } },
   { '@type': 'BreadcrumbList', itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Menu', item: `${SITE}/` },
     { '@type': 'ListItem', position: 2, name: 'Locations', item: `${SITE}/locations` },
