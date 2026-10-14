@@ -153,7 +153,14 @@ ${table(['Version', 'Calories', 'Sugar', 'Carbs', 'Caffeine'], [
 <p>If you are ordering around an allergy, check the <a href="/allergen-dietary-guide">full allergen and dietary guide</a> and confirm at the window.</p></section>`;
 
   // Related drinks in the same category
-  const siblings = DRINKS.filter(d => d !== name && categoryOf(d).id === cat.id).slice(0, 6);
+  // Rotate the window through the category instead of always taking the first six.
+  // slice(0, 6) gave every inbound link to the same handful of drinks and left the
+  // rest of each category with a single inbound link, which is why they struggled
+  // to get crawled. Rotating spreads inbound links evenly across the category.
+  const pool = DRINKS.filter(d => d !== name && categoryOf(d).id === cat.id);
+  const offset = pool.length ? DRINKS.indexOf(name) % pool.length : 0;
+  const siblings = Array.from({ length: Math.min(6, pool.length) },
+    (_, i) => pool[(offset + i) % pool.length]);
 
   const faqs = [
     [`How many calories are in a 7 Brew ${name}?`,
