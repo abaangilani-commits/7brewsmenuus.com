@@ -352,7 +352,15 @@ function buildState(state) {
   const byCount = [...cities].sort((a, b) => b.stands.length - a.stands.length || a.name.localeCompare(b.name));
   const topCities = byCount.slice(0, 3);
   const title = `7 Brew ${state.name}: ${plural(n, 'Location', 'Locations')} in ${plural(cities.length, 'City', 'Cities')} (2026)`;
-  const description = `Find ${n === 1 ? 'the 7 Brew drive-thru' : `all ${n} 7 Brew drive-thru stands`} in ${state.name}${cities.length > 1 ? `, including ${listJoin(topCities.map(c => c.name))}` : ''}. Addresses, hours and directions, checked ${CHECKED}.`;
+  // Keep as many city names as fit inside the 160-char snippet Google shows; the
+  // date is the first thing dropped because it adds 14 chars and no keyword.
+  const describeState = (nCities, withDate) =>
+    `Find ${n === 1 ? 'the 7 Brew drive-thru' : `all ${n} 7 Brew drive-thru stands`} in ${state.name}` +
+    (nCities ? `, including ${listJoin(topCities.slice(0, nCities).map(c => c.name))}` : '') +
+    `. Addresses, hours and directions, checked ${withDate ? CHECKED : CHECKED.replace(/ \d+,/, '')}.`;
+  const description = [[3, true], [3, false], [2, false], [1, false], [0, false]]
+    .map(([c, dt]) => describeState(cities.length > 1 ? c : 0, dt))
+    .find(s => s.length <= 158) || describeState(0, false);
   const nearbyStates = state.center ? stateList.filter(s => s !== state && s.center)
     .map(s => ({ s, miles: haversineMiles(state.center, s.center) })).sort((a, b) => a.miles - b.miles).slice(0, 5) : [];
   const topCity = byCount[0];
