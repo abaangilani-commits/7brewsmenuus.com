@@ -167,6 +167,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const categoryObj = MENU_DATA.categories.find(c => c.id === item.category);
       const categoryLabel = categoryObj?.name || item.category;
       const categoryIcon = categoryObj?.icon || '☕';
+      // 30 of the 62 drinks carry no nutrition yet (seasonal, secret-menu,
+      // shakes and others). Reading these unguarded threw inside this map,
+      // which aborted the whole assignment and silently broke every category
+      // filter on the homepage.
+      const nutSource = item.nutritionSource || '';
+      const calMedium = item.calories?.medium;
+      const cafMedium = item.caffeineMg?.medium;
 
       return `
         <article class="drink-card" id="card-${item.id}">
@@ -205,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="image-credit">Estimated prices · confirm with your stand</p><table class="drink-prices-table" aria-label="Estimated prices for ${item.name}"><thead><tr><th>Small</th><th>Medium</th><th>Large</th></tr></thead><tbody><tr><td>$${item.pricing.small.toFixed(2)}</td><td>$${item.pricing.medium.toFixed(2)}</td><td>$${item.pricing.large.toFixed(2)}</td></tr></tbody></table>
 
           <div class="drink-card-meta">
-            <span>${item.nutritionSource.startsWith('Official') ? '' : '~'}${item.calories.medium} kcal · medium</span><span>${item.caffeineMg.medium} mg caffeine</span><small>${item.nutritionSource}</small><a href="nutrition-calories">Customize nutrition →</a>
+            ${calMedium != null ? `<span>${nutSource.startsWith('Official') ? '' : '~'}${calMedium} kcal · medium</span>` : ''}${cafMedium != null ? `<span>${cafMedium} mg caffeine</span>` : ''}${nutSource ? `<small>${nutSource}</small>` : ''}<a href="nutrition-calories">Customize nutrition →</a>
             
           </div>
 
