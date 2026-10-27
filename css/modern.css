@@ -30,3 +30,16 @@
 .discovery-paths>a{padding:14px 16px}
 .discovery-paths h2{font-size:17px}
 }
+
+/* Homepage UX pass (Oct 27, 2026): scrollable tabs, even cards, anchor offsets, back-to-top */
+body.modern-home section[id], body.modern-home main[id]{scroll-margin-top:84px}
+body.modern-home .category-tabs-scroll{display:flex;flex-wrap:nowrap;overflow-x:auto;min-width:0;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+body.modern-home .category-tabs-scroll::-webkit-scrollbar{display:none}
+body.modern-home .cat-tab-btn{flex:0 0 auto}
+body.modern-home .drink-card{display:flex;flex-direction:column}
+body.modern-home .drink-card-img-wrap{height:210px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+body.modern-home .drink-card-img{max-height:100%;max-width:100%}
+body.modern-home .drink-card-meta{margin-top:6px;line-height:1.55}
+body.modern-home .drink-card-actions{margin-top:auto}
+.back-to-top{position:fixed;right:16px;bottom:16px;z-index:80;background:#233c36;color:#fff;padding:10px 16px;border-radius:99px;font-size:13px;font-weight:700;text-decoration:none;box-shadow:0 6px 18px rgba(35,60,54,.35)}
+.back-to-top:hover{background:#EA0029;color:#fff}
