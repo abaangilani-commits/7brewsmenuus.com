@@ -110,15 +110,21 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/nutrition-calories</loc>
-    <lastmod>2026-09-09</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://7brewsmenuus.com/seasonal-drinks</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://7brewsmenuus.com/frankenchai-matcha-latte</loc>
+    <lastmod>2026-10-27</lastmod>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://7brewsmenuus.com/secret-menu</loc>
@@ -200,7 +206,7 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/deals</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -2028,12 +2034,6 @@
   </url>
   <url>
     <loc>https://7brewsmenuus.com/new-locations</loc>
-    <lastmod>2026-09-22</lastmod>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://7brewsmenuus.com/brewista-test</loc>
     <lastmod>2026-09-22</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
