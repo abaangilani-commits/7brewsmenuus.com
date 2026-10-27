@@ -3154,11 +3154,11 @@ const MENU_DATA = {
       "q": "How do I order a custom flavor combination?",
       "a": "Specify the drink base, size, preparation and flavors. A nickname alone may not identify the recipe you want. Ask the stand to confirm the order."
     },
-      {"q": "How much is a medium drink at 7 Brew?", "a": "A medium signature drink like the Blondie is $5.50. Mediums start at $3.25 for a House Blend coffee and reach $6.50 for a 7 Energy. A medium is 24 oz iced or 16 oz hot."},
+      {"q": "How much is a medium drink at 7 Brew?", "a": "A medium signature drink like the Blondie is $5.25. Mediums start at $3.25 for a House Blend coffee and reach $6.50 for a 7 Energy. A medium is 24 oz iced or 16 oz hot."},
       {"q": "Are 7 Brew prices the same at every location?", "a": "No. Each stand sets its own board, so prices move a little by city and state. The prices on this page are researched estimates from menu boards and the 7 Brew app. Your stand's board is the final price."},
       {"q": "Does 7 Brew have a secret menu?", "a": "Yes. Regulars have built a long list of off-menu combinations, like the Funnel Cake Macchiato and the Pink Mermaid. The secret menu guide on this site lists each drink's name and exactly what to ask the Brewista for."},
       {"q": "Can I get a 7 Brew menu PDF?", "a": "Yes. This site has a free printable menu PDF with prices on the menu PDF page. 7 Brew's own site also offers an official menu PDF, but it shows calorie ranges and no prices."},
-      {"q": "Is 7 Brew cheaper than Starbucks?", "a": "For most drinks, yes. A medium Blondie is $5.50, and a similar sized specialty latte at Starbucks usually runs higher. Sizes and recipes differ between the chains, so treat it as a rough guide rather than an exact match."},
+      {"q": "Is 7 Brew cheaper than Starbucks?", "a": "For most drinks, yes. A medium Blondie is $5.25, and a similar sized specialty latte at Starbucks usually runs higher. Sizes and recipes differ between the chains, so treat it as a rough guide rather than an exact match."},
       {"q": "What sizes does 7 Brew have?", "a": "Four sizes: kids, small, medium and large. Iced and frozen drinks come in 16, 24 and 32 oz. Hot drinks come in 12, 16 and 20 oz. The cup sizes guide on this site shows every size with its caffeine."}
   ]
 };
