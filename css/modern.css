@@ -43,3 +43,7 @@ body.modern-home .drink-card-meta{margin-top:6px;line-height:1.55}
 body.modern-home .drink-card-actions{margin-top:auto}
 .back-to-top{position:fixed;right:16px;bottom:16px;z-index:80;background:#233c36;color:#fff;padding:10px 16px;border-radius:99px;font-size:13px;font-weight:700;text-decoration:none;box-shadow:0 6px 18px rgba(35,60,54,.35)}
 .back-to-top:hover{background:#EA0029;color:#fff}
+
+/* Image stage fix (Oct 27, 2026): product cutouts are transparent; drop multiply, one flat stage tone */
+body.modern-home .drink-card-img{background:#f6f5ef;mix-blend-mode:normal}
+body.modern-home .orbit-drink img{mix-blend-mode:normal}
