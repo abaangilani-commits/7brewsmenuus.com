@@ -2221,6 +2221,40 @@ footer.site-footer {
   line-height: 1.6;
 }
 
+.footer-social {
+  margin-top: 16px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: color var(--transition-fast);
+}
+
+.footer-social a:hover {
+  color: var(--brew-gold);
+}
+
+.footer-social-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #E60023;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+  flex: none;
+}
+
 .footer-col h3 {
   font-family: var(--font-mono);
   font-size: 0.74rem;
