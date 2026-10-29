@@ -155,7 +155,7 @@ body { background: rgb(253, 252, 249); }
 @media (max-width: 480px){.modern-home .hero-cta-row .btn { width: 100%; min-width: unset; }}
 @media (max-width: 480px){.header-actions .btn.btn-primary { font-size: 8px; padding: 7px 10px; }}
 /* ===== Homepage redesign layer (Oct 29, 2026) ===== */
-.modern-home .stats-strip{margin:26px auto 6px;text-align:center}
+.modern-home .stats-strip{margin:38px auto 6px;text-align:center}
 .modern-home .stats-chip{display:inline-block;background:var(--brew-cream);border:1px solid var(--brew-border);color:var(--brew-crimson-dark);font-weight:700;font-size:.85rem;padding:7px 16px;border-radius:999px}
 .modern-home .stats-row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:18px}
 .modern-home .stat{background:#fff;border:1px solid var(--brew-border);border-radius:var(--radius-lg);padding:16px 22px;min-width:150px;flex:1 1 150px;max-width:250px}
@@ -172,10 +172,10 @@ body { background: rgb(253, 252, 249); }
 @media (hover:hover) and (pointer:fine){.modern-home .cat-tile:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}.modern-home .drink-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}}
 .modern-home .price-tables-section{background:var(--brew-surface);border:1px solid var(--brew-border);border-radius:var(--radius-lg);padding:36px 30px}
 .modern-home .full-price-table th{background:var(--brew-crimson-dark);color:#fff;font-family:var(--font-heading);text-transform:none;letter-spacing:0;font-size:.9rem;padding:13px 18px;text-align:left}
-.modern-home .full-price-table tbody tr:nth-child(even){background:var(--brew-cream)}
-.modern-home .full-price-table tbody tr:hover{background:var(--brew-cream-warm)}
-.modern-home .cat-tab-btn{padding:9px 16px;font-size:.88rem;border-radius:999px;min-height:40px}
-.modern-home .cat-tab-btn.active{background:var(--brew-crimson);border-color:var(--brew-crimson);color:#fff;box-shadow:0 2px 8px rgba(219,0,38,.25)}
+.modern-home .full-price-table tbody tr:nth-child(even){background:color-mix(in srgb,var(--brew-crimson) 5%,#fff)}
+.modern-home .full-price-table tbody tr:hover{background:color-mix(in srgb,var(--brew-crimson) 10%,#fff)}
+body.modern-home .toolbar-section .cat-tab-btn{padding:9px 16px;font-size:.88rem;border-radius:999px;min-height:40px}
+body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crimson);border-color:var(--brew-crimson);color:#fff;box-shadow:0 2px 8px rgba(219,0,38,.25)}
 .modern-home .faq-item[open]{border-color:var(--brew-crimson)}
 .modern-home .faq-item[open] .faq-question{color:var(--brew-crimson-dark)}
 @media (max-width:640px){.modern-home .price-tables-section{padding:24px 16px;overflow-x:auto}.modern-home .stat{min-width:130px}.modern-home .cat-tile img{height:120px}}
