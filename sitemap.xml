@@ -367,6 +367,12 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://7brewsmenuus.com/7-brew-near-me</loc>
+    <lastmod>2026-10-29</lastmod>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://7brewsmenuus.com/locations/al</loc>
     <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
