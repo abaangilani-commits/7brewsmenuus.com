@@ -76,6 +76,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Hero Search: filter in place instead of a full page reload
+  const heroSearchForm = document.querySelector('.hero-search');
+  const heroSearchInput = document.getElementById('heroSearch');
+  if (heroSearchForm && heroSearchInput && searchInput) {
+    heroSearchForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      searchInput.value = heroSearchInput.value;
+      searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+      if (drinksGrid) {
+        drinksGrid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  }
+
   // Category Tabs
   categoryTabs.forEach(tab => {
     tab.addEventListener('click', () => {

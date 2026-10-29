@@ -1378,11 +1378,7 @@ const MENU_DATA = {
       ],
       "imageCaption": "Official category photo; exact custom drink is not pictured.",
       "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 5,
-        "medium": 5.75,
-        "large": 6.75
-      },
+      "pricing": {"small": 4.25, "medium": 4.95, "large": 5.75},
       "calories": {
         "small": 260,
         "medium": 370,
@@ -1689,11 +1685,7 @@ const MENU_DATA = {
         "medium": 0,
         "large": 0
       },
-      "caffeineMg": {
-        "small": 120,
-        "medium": 9,
-        "large": 240
-      },
+      "caffeineMg": {"small": 120, "medium": 180, "large": 240},
       "nutritionSource": "Americano"
     },
     {
@@ -2067,11 +2059,10 @@ const MENU_DATA = {
       ],
       "imageCaption": "Exact product photo unavailable.",
       "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 3.99,
-        "medium": 4.75,
-        "large": 5.5
-      }
+      "calories": {"small": 5, "medium": 5, "large": 5},
+      "caffeineMg": {"small": 114, "medium": 114, "large": 114},
+      "nutritionSource": "7 Energy Sugar-Free Can",
+      "pricing": {"small": 2.48, "medium": 2.48, "large": 2.48}
     },
     {
       "id": "lemon-drop-fizz",
@@ -2337,11 +2328,7 @@ const MENU_DATA = {
         "medium": 220,
         "large": 300
       },
-      "caffeineMg": {
-        "small": 0,
-        "medium": 0,
-        "large": 0
-      },
+      "caffeineMg": {"small": 13, "medium": 19, "large": 25},
       "nutritionSource": "Chai Latte"
     },
     {
@@ -2672,6 +2659,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 500},
+      "caffeineMg": {"small": 0, "medium": 0, "large": 0},
+      "nutritionSource": "Strawberry Banana Smoothie",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
@@ -2700,6 +2690,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 470},
+      "caffeineMg": {"small": 0, "medium": 0, "large": 0},
+      "nutritionSource": "Tiki Tango Mango Smoothie",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
@@ -2728,6 +2721,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "Official category photo; exact custom drink is not pictured.",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 720, "large": 970},
+      "caffeineMg": {"small": 0, "medium": 0, "large": 0},
+      "nutritionSource": "Tiger's Blood Piña Colada Smoothie",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
@@ -2757,6 +2753,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 510},
+      "caffeineMg": {"small": 0, "medium": 0, "large": 0},
+      "nutritionSource": "Blackberry Cobbler Wildberry Smoothie",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
@@ -2786,6 +2785,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "Product image: 7 Brew.",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 700, "large": 940},
+      "caffeineMg": {"small": 0, "medium": 0, "large": 0},
+      "nutritionSource": "Rocky Road Shake",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
@@ -2815,6 +2817,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "Product image: 7 Brew.",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 600},
+      "caffeineMg": {"small": 0, "medium": 0, "large": 0},
+      "nutritionSource": "Cookies & Cream Shake",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
@@ -2844,6 +2849,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "Product image: 7 Brew.",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 560},
+      "caffeineMg": {"small": 0, "medium": 0, "large": 0},
+      "nutritionSource": "Orange Sherbet Shake",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
@@ -2872,6 +2880,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "Product image: 7 Brew.",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 600},
+      "caffeineMg": {"small": 0, "medium": 0, "large": 0},
+      "nutritionSource": "Birthday Cake Shake",
       "pricing": {
         "small": 5.25,
         "medium": 6.25,
@@ -2902,6 +2913,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "Official category photo; exact custom drink is not pictured.",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"small": 110, "medium": 160, "large": 210},
+      "caffeineMg": {"small": 360, "medium": 360, "large": 360},
+      "nutritionSource": "Triple 7",
       "pricing": {
         "small": 5.5,
         "medium": 6.25,
@@ -2913,7 +2927,7 @@ const MENU_DATA = {
       "name": "Bakery Muffin Tops",
       "image": "",
       "imageAlt": "",
-      "category": "secret-menu",
+      "category": "shakes",
       "badge": "Confirm recipe locally",
       "tagline": "Blueberry, Choc Chip & Lemon Poppyseed",
       "desc": "A guide entry for this named order. Confirm the base, flavor combination and availability with your stand before ordering.",
@@ -2932,11 +2946,7 @@ const MENU_DATA = {
       ],
       "imageCaption": "Exact product photo unavailable.",
       "imageSource": "https://7brew.com/menu",
-      "pricing": {
-        "small": 4.45,
-        "medium": 4.45,
-        "large": 4.45
-      }
+      "pricing": {"small": 3.0, "medium": 3.0, "large": 3.0}
     },
     {
       "id": "pup-cup",
@@ -3114,6 +3124,9 @@ const MENU_DATA = {
       ],
       "imageCaption": "Official category photo; exact custom drink is not pictured.",
       "imageSource": "https://7brew.com/menu",
+      "calories": {"medium": 350},
+      "caffeineMg": {"small": 120, "medium": 120, "large": 240},
+      "nutritionSource": "Snickerdoodle",
       "pricing": {
         "small": 4.5,
         "medium": 5.25,
@@ -3132,7 +3145,7 @@ const MENU_DATA = {
     },
     {
       "q": "How much is a medium drink at 7 Brew?",
-      "a": "It depends on the drink. A medium Blondie is $5.25. Mediums start at $3.50 for a 7 Fizz or a lemonade and reach $6.50 for a shake or a frozen chiller. A medium is 24 oz iced or 16 oz hot."
+      "a": "It depends on the drink. A medium Blondie is $5.25. Mediums run from $3.25 for a House Blend coffee to $6.50 for a shake or a frozen chiller. A medium is 24 oz iced or 16 oz hot."
     },
     {
       "q": "What can I get at 7 Brew for $5?",
