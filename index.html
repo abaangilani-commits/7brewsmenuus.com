@@ -179,6 +179,15 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 .modern-home .faq-item[open]{border-color:var(--brew-crimson)}
 .modern-home .faq-item[open] .faq-question{color:var(--brew-crimson-dark)}
 @media (max-width:640px){.modern-home .price-tables-section{padding:24px 16px;overflow-x:auto}.modern-home .stat{min-width:130px}.modern-home .cat-tile img{height:120px}}
+
+/* Perf fixes Oct 29 2026: the stage controls are injected by JS after load;
+   reserving the final height and top-pinning the stage stops the hero
+   carousel shifting the page (desktop CLS). The download bar gets its final
+   geometry at first paint for the same reason (mobile CLS). */
+body.modern-home .hero-grid { align-items: start; }
+body.modern-home .drink-stage { margin: 0 auto; min-height: 482px; }
+.download-nearby { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; padding: 18px 20px; background: #f0f4ed; border-bottom: 1px solid #e1e7dc; }
+@media (max-width: 760px) { .download-nearby { gap: 10px; padding: 14px 16px; } }
 </style><link as="style" href="css/styles.css?v=20260912c" rel="preload" onload="this.onload=null;this.rel='stylesheet'"/><noscript><link href="css/styles.css?v=20260912c" rel="stylesheet"/></noscript>
 <!-- JSON-LD Structured Data: WebSite & Organization -->
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://7brewsmenuus.com/#organization", "name": "7 Brew Menu Guide USA", "url": "https://7brewsmenuus.com/", "description": "Independent consumer guide tracking 7 Brew Coffee menu items, regional prices, calories, secret recipes, and drive-thru guidelines across the United States."}, {"@type": "WebSite", "@id": "https://7brewsmenuus.com/#website", "url": "https://7brewsmenuus.com/", "name": "7 Brew Menu with Prices", "publisher": {"@id": "https://7brewsmenuus.com/#organization"}, "inLanguage": "en-US", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://7brewsmenuus.com/locations?q={search_term_string}"}, "query-input": "required name=search_term_string"}}, {"@type": "BreadcrumbList", "@id": "https://7brewsmenuus.com/#breadcrumbs", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://7brewsmenuus.com/"}]}, {"@type": "WebPage", "@id": "https://7brewsmenuus.com/#webpage", "url": "https://7brewsmenuus.com/", "name": "7 Brew Menu With Prices (2026) | Calories, Sizes & PDF", "isPartOf": {"@id": "https://7brewsmenuus.com/#website"}, "dateModified": "2026-10-29", "inLanguage": "en-US", "description": "7 Brew does not list prices on its own site, so we track them: the full menu with 2026 prices, calories from the official guide, and a stand finder.", "datePublished": "2026-09-10"}, {"@type": "Menu", "@id": "https://7brewsmenuus.com/#full-menu", "name": "7 Brew Coffee Menu", "url": "https://7brewsmenuus.com/", "inLanguage": "en-US", "description": "Complete drink menu containing 7 Originals, espresso classics, 7 Energy drinks, Italian sodas, teas, smoothies, shakes, and secret menu builds.", "hasMenuSection": [{"@type": "MenuSection", "name": "7 Originals", "description": "Signature breve drinks crafted with espresso, half-and-half, and proprietary syrup blends.", "hasMenuItem": [{"@type": "MenuItem", "name": "The Blondie", "image": "https://7brewsmenuus.com/assets/products/product-blondie.webp", "description": "Caramel and vanilla breve with espresso and rich half-and-half."}, {"@type": "MenuItem", "name": "The Brunette", "image": "https://7brewsmenuus.com/assets/products/product-brunette.webp", "description": "Hazelnut and caramel mocha breve with espresso."}, {"@type": "MenuItem", "name": "Smooth 7", "image": "https://7brewsmenuus.com/assets/products/product-smooth7.webp", "description": "White chocolate and Irish cream breve."}]}, {"@type": "MenuSection", "name": "7 Energy", "description": "Infused sparkling energy drinks powered by 7 Brew proprietary energy blend.", "hasMenuItem": [{"@type": "MenuItem", "name": "Ocean Breeze 7 Energy", "image": "https://7brewsmenuus.com/assets/products/product-oceanbreeze7energy.webp", "description": "Blue raspberry and coconut infused 7 Energy drink."}, {"@type": "MenuItem", "name": "Pixie Stick 7 Energy", "image": "https://7brewsmenuus.com/assets/products/product-pixiestick7energy.webp", "description": "Orange, almond, and tart pomegranate energy beverage."}]}]}]}</script>
@@ -261,14 +270,14 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 <p class="section-desc">Start with a category, or search and filter the full menu below.</p>
 </div>
 <div class="cat-tiles-grid">
-<a class="cat-tile" href="#menu"><img alt="7 Brew Originals coffee drinks" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-originals.webp" srcset="assets/products/category-originals-320.webp 320w, assets/products/category-originals.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">7 Originals</span><span class="cat-tile-desc">The seven signatures, Blondie first.</span><span class="cat-tile-price">From $4.50</span></span></a>
-<a class="cat-tile" href="#menu"><img alt="7 Brew classic coffee drinks" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Classics</span><span class="cat-tile-desc">Lattes, mochas, cold brew and cocoa.</span><span class="cat-tile-price">From $3.95</span></span></a>
-<a class="cat-tile" href="energy-drinks"><img alt="7 Brew 7 Energy drinks" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-energy.webp" srcset="assets/products/category-energy-320.webp 320w, assets/products/category-energy.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">7 Energy</span><span class="cat-tile-desc">Iced energy, any flavor combo you like.</span><span class="cat-tile-price">From $4.50</span></span></a>
-<a class="cat-tile" href="fizz-drinks"><img alt="7 Brew 7 Fizz sodas" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-fizz-sodas.webp" srcset="assets/products/category-fizz-sodas-320.webp 320w, assets/products/category-fizz-sodas.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">7 Fizz Sodas</span><span class="cat-tile-desc">Soda-shop style and caffeine-free.</span><span class="cat-tile-price">From $2.75</span></span></a>
-<a class="cat-tile" href="teas-chai"><img alt="7 Brew teas, chai and matcha drinks" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-teas-chai--matcha.webp" srcset="assets/products/category-teas-chai--matcha-320.webp 320w, assets/products/category-teas-chai--matcha.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Teas &amp; Matcha</span><span class="cat-tile-desc">Chai, matcha and brewed teas.</span><span class="cat-tile-price">From $3.95</span></span></a>
-<a class="cat-tile" href="lemonades"><img alt="7 Brew lemonades" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-lemonades.webp" srcset="assets/products/category-lemonades-320.webp 320w, assets/products/category-lemonades.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Lemonades</span><span class="cat-tile-desc">Pink Paradise, Key Lime Pie and more.</span><span class="cat-tile-price">From $2.75</span></span></a>
-<a class="cat-tile" href="smoothies-shakes"><img alt="7 Brew smoothies" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Smoothies</span><span class="cat-tile-desc">Peach, mango, strawberry and more.</span><span class="cat-tile-price">From $5.25</span></span></a>
-<a class="cat-tile" href="smoothies-shakes"><img alt="7 Brew shakes" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-shakes.webp" srcset="assets/products/category-shakes-320.webp 320w, assets/products/category-shakes.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Shakes</span><span class="cat-tile-desc">Birthday Cake, Rocky Road and more.</span><span class="cat-tile-price">From $5.50</span></span></a>
+<a class="cat-tile" href="#menu"><img alt="7 Brew Originals coffee drinks" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-originals.webp" srcset="assets/products/category-originals-320.webp 320w, assets/products/category-originals-480.webp 480w, assets/products/category-originals.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">7 Originals</span><span class="cat-tile-desc">The seven signatures, Blondie first.</span><span class="cat-tile-price">From $4.50</span></span></a>
+<a class="cat-tile" href="#menu"><img alt="7 Brew classic coffee drinks" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Classics</span><span class="cat-tile-desc">Lattes, mochas, cold brew and cocoa.</span><span class="cat-tile-price">From $3.95</span></span></a>
+<a class="cat-tile" href="energy-drinks"><img alt="7 Brew 7 Energy drinks" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-energy.webp" srcset="assets/products/category-energy-320.webp 320w, assets/products/category-energy-480.webp 480w, assets/products/category-energy.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">7 Energy</span><span class="cat-tile-desc">Iced energy, any flavor combo you like.</span><span class="cat-tile-price">From $4.50</span></span></a>
+<a class="cat-tile" href="fizz-drinks"><img alt="7 Brew 7 Fizz sodas" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-fizz-sodas.webp" srcset="assets/products/category-fizz-sodas-320.webp 320w, assets/products/category-fizz-sodas-480.webp 480w, assets/products/category-fizz-sodas.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">7 Fizz Sodas</span><span class="cat-tile-desc">Soda-shop style and caffeine-free.</span><span class="cat-tile-price">From $2.75</span></span></a>
+<a class="cat-tile" href="teas-chai"><img alt="7 Brew teas, chai and matcha drinks" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-teas-chai--matcha.webp" srcset="assets/products/category-teas-chai--matcha-320.webp 320w, assets/products/category-teas-chai--matcha-480.webp 480w, assets/products/category-teas-chai--matcha.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Teas &amp; Matcha</span><span class="cat-tile-desc">Chai, matcha and brewed teas.</span><span class="cat-tile-price">From $3.95</span></span></a>
+<a class="cat-tile" href="lemonades"><img alt="7 Brew lemonades" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-lemonades.webp" srcset="assets/products/category-lemonades-320.webp 320w, assets/products/category-lemonades-480.webp 480w, assets/products/category-lemonades.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Lemonades</span><span class="cat-tile-desc">Pink Paradise, Key Lime Pie and more.</span><span class="cat-tile-price">From $2.75</span></span></a>
+<a class="cat-tile" href="smoothies-shakes"><img alt="7 Brew smoothies" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies-480.webp 480w, assets/products/category-smoothies.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Smoothies</span><span class="cat-tile-desc">Peach, mango, strawberry and more.</span><span class="cat-tile-price">From $5.25</span></span></a>
+<a class="cat-tile" href="smoothies-shakes"><img alt="7 Brew shakes" decoding="async" height="640" loading="lazy" sizes="(max-width: 640px) 45vw, 280px" src="assets/products/category-shakes.webp" srcset="assets/products/category-shakes-320.webp 320w, assets/products/category-shakes-480.webp 480w, assets/products/category-shakes.webp 640w" width="640"><span class="cat-tile-body"><span class="cat-tile-name">Shakes</span><span class="cat-tile-desc">Birthday Cake, Rocky Road and more.</span><span class="cat-tile-price">From $5.50</span></span></a>
 </div>
 </section>
 <section aria-label="Menu Search and Filters" class="toolbar-section" id="menuToolbar">
@@ -315,7 +324,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 <div class="drinks-grid" id="drinksGrid"><!-- menu:start -->
 <article class="drink-card" id="card-pumpkin-blondie-breve">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Original Pumpkin Blondie Breve — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-originalpumpkinblondiebreve.webp" srcset="assets/products/product-originalpumpkinblondiebreve-320.webp 320w, assets/products/product-originalpumpkinblondiebreve.webp 640w" title="Original Pumpkin Blondie Breve - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Original Pumpkin Blondie Breve — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-originalpumpkinblondiebreve.webp" srcset="assets/products/product-originalpumpkinblondiebreve-320.webp 320w, assets/products/product-originalpumpkinblondiebreve-480.webp 480w, assets/products/product-originalpumpkinblondiebreve.webp 640w" title="Original Pumpkin Blondie Breve - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -339,7 +348,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-caramel-apple-pie-macchiato">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Caramel Apple Pie Macchiato — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-caramelapplepiemacchiato.webp" srcset="assets/products/product-caramelapplepiemacchiato-320.webp 320w, assets/products/product-caramelapplepiemacchiato.webp 640w" title="Caramel Apple Pie Macchiato - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Caramel Apple Pie Macchiato — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-caramelapplepiemacchiato.webp" srcset="assets/products/product-caramelapplepiemacchiato-320.webp 320w, assets/products/product-caramelapplepiemacchiato-480.webp 480w, assets/products/product-caramelapplepiemacchiato.webp 640w" title="Caramel Apple Pie Macchiato - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -363,7 +372,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-drizzled-apple-7-energy">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Drizzled Apple 7 Energy Frozen Chiller — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-drizzledapple7energyfrozenchiller.webp" srcset="assets/products/product-drizzledapple7energyfrozenchiller-320.webp 320w, assets/products/product-drizzledapple7energyfrozenchiller.webp 640w" title="Drizzled Apple 7 Energy Frozen Chiller - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Drizzled Apple 7 Energy Frozen Chiller — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-drizzledapple7energyfrozenchiller.webp" srcset="assets/products/product-drizzledapple7energyfrozenchiller-320.webp 320w, assets/products/product-drizzledapple7energyfrozenchiller-480.webp 480w, assets/products/product-drizzledapple7energyfrozenchiller.webp 640w" title="Drizzled Apple 7 Energy Frozen Chiller - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -387,7 +396,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-apple-butter-chai-latte">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Apple Butter Chai Latte — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-applebutterchailatte.webp" srcset="assets/products/product-applebutterchailatte-320.webp 320w, assets/products/product-applebutterchailatte.webp 640w" title="Apple Butter Chai Latte - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Apple Butter Chai Latte — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-applebutterchailatte.webp" srcset="assets/products/product-applebutterchailatte-320.webp 320w, assets/products/product-applebutterchailatte-480.webp 480w, assets/products/product-applebutterchailatte.webp 640w" title="Apple Butter Chai Latte - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -411,7 +420,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-pumpkin-roll-shake">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Pumpkin Roll Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-pumpkinrollshake.webp" srcset="assets/products/product-pumpkinrollshake-320.webp 320w, assets/products/product-pumpkinrollshake.webp 640w" title="Pumpkin Roll Shake - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Pumpkin Roll Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-pumpkinrollshake.webp" srcset="assets/products/product-pumpkinrollshake-320.webp 320w, assets/products/product-pumpkinrollshake-480.webp 480w, assets/products/product-pumpkinrollshake.webp 640w" title="Pumpkin Roll Shake - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -435,7 +444,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-blondie">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Blondie — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-blondie.webp" srcset="assets/products/product-blondie-320.webp 320w, assets/products/product-blondie-480.webp 480w, assets/products/product-blondie.webp 640w" title="Blondie - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Blondie — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-blondie.webp" srcset="assets/products/product-blondie-320.webp 320w, assets/products/product-blondie-480.webp 480w, assets/products/product-blondie.webp 640w" title="Blondie - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -459,7 +468,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-sweet-salty">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Sweet &amp; Salty — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-sweetsalty.webp" srcset="assets/products/product-sweetsalty-320.webp 320w, assets/products/product-sweetsalty.webp 640w" title="Sweet &amp; Salty - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Sweet &amp; Salty — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-sweetsalty.webp" srcset="assets/products/product-sweetsalty-320.webp 320w, assets/products/product-sweetsalty-480.webp 480w, assets/products/product-sweetsalty.webp 640w" title="Sweet &amp; Salty - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -483,7 +492,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-cinnamon-roll">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Cinnamon Roll — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-cinnamonroll.webp" srcset="assets/products/product-cinnamonroll-320.webp 320w, assets/products/product-cinnamonroll.webp 640w" title="Cinnamon Roll - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Cinnamon Roll — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-cinnamonroll.webp" srcset="assets/products/product-cinnamonroll-320.webp 320w, assets/products/product-cinnamonroll-480.webp 480w, assets/products/product-cinnamonroll.webp 640w" title="Cinnamon Roll - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -507,7 +516,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-brunette">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Brunette — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-brunette.webp" srcset="assets/products/product-brunette-320.webp 320w, assets/products/product-brunette.webp 640w" title="Brunette - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Brunette — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-brunette.webp" srcset="assets/products/product-brunette-320.webp 320w, assets/products/product-brunette-480.webp 480w, assets/products/product-brunette.webp 640w" title="Brunette - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -531,7 +540,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-banana-bread">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Banana Bread — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-bananabread.webp" srcset="assets/products/product-bananabread-320.webp 320w, assets/products/product-bananabread.webp 640w" title="Banana Bread - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Banana Bread — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-bananabread.webp" srcset="assets/products/product-bananabread-320.webp 320w, assets/products/product-bananabread-480.webp 480w, assets/products/product-bananabread.webp 640w" title="Banana Bread - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -555,7 +564,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-smooth-7">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Smooth 7 — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-smooth7.webp" srcset="assets/products/product-smooth7-320.webp 320w, assets/products/product-smooth7.webp 640w" title="Smooth 7 - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Smooth 7 — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-smooth7.webp" srcset="assets/products/product-smooth7-320.webp 320w, assets/products/product-smooth7-480.webp 480w, assets/products/product-smooth7.webp 640w" title="Smooth 7 - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -579,7 +588,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-cookie-butter">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Cookie Butter — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-cookiebutter.webp" srcset="assets/products/product-cookiebutter-320.webp 320w, assets/products/product-cookiebutter-480.webp 480w, assets/products/product-cookiebutter.webp 640w" title="Cookie Butter - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Cookie Butter — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-cookiebutter.webp" srcset="assets/products/product-cookiebutter-320.webp 320w, assets/products/product-cookiebutter-480.webp 480w, assets/products/product-cookiebutter.webp 640w" title="Cookie Butter - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -603,7 +612,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-german-chocolate">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="German Chocolate Mocha - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="German Chocolate Mocha - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -627,7 +636,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-triple-7">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Triple 7 (6 Shots) - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Triple 7 (6 Shots) - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -651,7 +660,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-classic-latte">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Classic Latte - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Classic Latte - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -675,7 +684,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-classic-mocha">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Classic Mocha - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Classic Mocha - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -699,7 +708,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-caramel-macchiato">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Caramel Macchiato - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Caramel Macchiato - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -723,7 +732,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-cold-brew">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Cold Brew Coffee - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Cold Brew Coffee - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -747,7 +756,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-house-blend">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="House Blend Drip Coffee - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="House Blend Drip Coffee - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -771,7 +780,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-classic-cocoa">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Hot Chocolate / Cocoa - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Hot Chocolate / Cocoa - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -838,7 +847,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 
 <article class="drink-card" id="card-heatwave">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Heatwave 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-heatwave7energy.webp" srcset="assets/products/product-heatwave7energy-320.webp 320w, assets/products/product-heatwave7energy.webp 640w" title="Heatwave 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Heatwave 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-heatwave7energy.webp" srcset="assets/products/product-heatwave7energy-320.webp 320w, assets/products/product-heatwave7energy-480.webp 480w, assets/products/product-heatwave7energy.webp 640w" title="Heatwave 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -862,7 +871,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-ocean-breeze">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Ocean Breeze 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-oceanbreeze7energy.webp" srcset="assets/products/product-oceanbreeze7energy-320.webp 320w, assets/products/product-oceanbreeze7energy-480.webp 480w, assets/products/product-oceanbreeze7energy.webp 640w" title="Ocean Breeze 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Ocean Breeze 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-oceanbreeze7energy.webp" srcset="assets/products/product-oceanbreeze7energy-320.webp 320w, assets/products/product-oceanbreeze7energy-480.webp 480w, assets/products/product-oceanbreeze7energy.webp 640w" title="Ocean Breeze 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -886,7 +895,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-bikini-bottom">
 <div class="drink-card-img-wrap">
-<img alt="7 Energy category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-energy.webp" srcset="assets/products/category-energy-320.webp 320w, assets/products/category-energy.webp 640w" title="Bikini Bottom 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Energy category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-energy.webp" srcset="assets/products/category-energy-320.webp 320w, assets/products/category-energy-480.webp 480w, assets/products/category-energy.webp 640w" title="Bikini Bottom 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -910,7 +919,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-sunrise-energy">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Sunrise 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-sunrise7energy.webp" srcset="assets/products/product-sunrise7energy-320.webp 320w, assets/products/product-sunrise7energy.webp 640w" title="Sunrise 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Sunrise 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-sunrise7energy.webp" srcset="assets/products/product-sunrise7energy-320.webp 320w, assets/products/product-sunrise7energy-480.webp 480w, assets/products/product-sunrise7energy.webp 640w" title="Sunrise 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -934,7 +943,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-pixie-stick">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Pixie Stick 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-pixiestick7energy.webp" srcset="assets/products/product-pixiestick7energy-320.webp 320w, assets/products/product-pixiestick7energy.webp 640w" title="Pixie Stick 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Pixie Stick 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-pixiestick7energy.webp" srcset="assets/products/product-pixiestick7energy-320.webp 320w, assets/products/product-pixiestick7energy-480.webp 480w, assets/products/product-pixiestick7energy.webp 640w" title="Pixie Stick 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -958,7 +967,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-brewberry-energy">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Brewberry 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-brewberry7energy.webp" srcset="assets/products/product-brewberry7energy-320.webp 320w, assets/products/product-brewberry7energy.webp 640w" title="Brewberry 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Brewberry 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-brewberry7energy.webp" srcset="assets/products/product-brewberry7energy-320.webp 320w, assets/products/product-brewberry7energy-480.webp 480w, assets/products/product-brewberry7energy.webp 640w" title="Brewberry 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -982,7 +991,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-bahama-mama-energy">
 <div class="drink-card-img-wrap">
-<img alt="7 Energy category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-energy.webp" srcset="assets/products/category-energy-320.webp 320w, assets/products/category-energy.webp 640w" title="Bahama Mama 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Energy category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-energy.webp" srcset="assets/products/category-energy-320.webp 320w, assets/products/category-energy-480.webp 480w, assets/products/category-energy.webp 640w" title="Bahama Mama 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1006,7 +1015,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-nightshade-energy">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Nightshade 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-nightshade7energy.webp" srcset="assets/products/product-nightshade7energy-320.webp 320w, assets/products/product-nightshade7energy.webp 640w" title="Nightshade 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Nightshade 7 Energy — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-nightshade7energy.webp" srcset="assets/products/product-nightshade7energy-320.webp 320w, assets/products/product-nightshade7energy-480.webp 480w, assets/products/product-nightshade7energy.webp 640w" title="Nightshade 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1030,7 +1039,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-tigers-blood">
 <div class="drink-card-img-wrap">
-<img alt="7 Energy category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-energy.webp" srcset="assets/products/category-energy-320.webp 320w, assets/products/category-energy.webp 640w" title="Tiger's Blood 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Energy category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-energy.webp" srcset="assets/products/category-energy-320.webp 320w, assets/products/category-energy-480.webp 480w, assets/products/category-energy.webp 640w" title="Tiger's Blood 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1075,7 +1084,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-lemon-drop-fizz">
 <div class="drink-card-img-wrap">
-<img alt="7 Fizz Sodas category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-fizz-sodas.webp" srcset="assets/products/category-fizz-sodas-320.webp 320w, assets/products/category-fizz-sodas.webp 640w" title="Lemon Drop 7 Fizz - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Fizz Sodas category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-fizz-sodas.webp" srcset="assets/products/category-fizz-sodas-320.webp 320w, assets/products/category-fizz-sodas-480.webp 480w, assets/products/category-fizz-sodas.webp 640w" title="Lemon Drop 7 Fizz - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1099,7 +1108,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-pink-mermaid">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Pink Mermaid 7 Fizz Soda — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-pinkmermaid7fizzsoda.webp" srcset="assets/products/product-pinkmermaid7fizzsoda-320.webp 320w, assets/products/product-pinkmermaid7fizzsoda.webp 640w" title="Pink Mermaid 7 Fizz - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Pink Mermaid 7 Fizz Soda — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-pinkmermaid7fizzsoda.webp" srcset="assets/products/product-pinkmermaid7fizzsoda-320.webp 320w, assets/products/product-pinkmermaid7fizzsoda-480.webp 480w, assets/products/product-pinkmermaid7fizzsoda.webp 640w" title="Pink Mermaid 7 Fizz - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1123,7 +1132,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-brew-lagoon">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Brew Lagoon 7 Fizz Soda — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-brewlagoon7fizzsoda.webp" srcset="assets/products/product-brewlagoon7fizzsoda-320.webp 320w, assets/products/product-brewlagoon7fizzsoda.webp 640w" title="Brew Lagoon 7 Fizz - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Brew Lagoon 7 Fizz Soda — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-brewlagoon7fizzsoda.webp" srcset="assets/products/product-brewlagoon7fizzsoda-320.webp 320w, assets/products/product-brewlagoon7fizzsoda-480.webp 480w, assets/products/product-brewlagoon7fizzsoda.webp 640w" title="Brew Lagoon 7 Fizz - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1147,7 +1156,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-blood-orange-fizz">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Blood Orange 7 Fizz Soda — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-bloodorange7fizzsoda.webp" srcset="assets/products/product-bloodorange7fizzsoda-320.webp 320w, assets/products/product-bloodorange7fizzsoda.webp 640w" title="Blood Orange 7 Fizz - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Blood Orange 7 Fizz Soda — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-bloodorange7fizzsoda.webp" srcset="assets/products/product-bloodorange7fizzsoda-320.webp 320w, assets/products/product-bloodorange7fizzsoda-480.webp 480w, assets/products/product-bloodorange7fizzsoda.webp 640w" title="Blood Orange 7 Fizz - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1171,7 +1180,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-peaches-n-cream-fizz">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Peaches N' Cream 7 Fizz Soda — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-peachesncream7fizzsoda.webp" srcset="assets/products/product-peachesncream7fizzsoda-320.webp 320w, assets/products/product-peachesncream7fizzsoda.webp 640w" title="Peaches 'n' Cream 7 Fizz - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Peaches N' Cream 7 Fizz Soda — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-peachesncream7fizzsoda.webp" srcset="assets/products/product-peachesncream7fizzsoda-320.webp 320w, assets/products/product-peachesncream7fizzsoda-480.webp 480w, assets/products/product-peachesncream7fizzsoda.webp 640w" title="Peaches 'n' Cream 7 Fizz - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1195,7 +1204,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-strawberry-matcha">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Strawberry Matcha Latte — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-strawberrymatchalatte.webp" srcset="assets/products/product-strawberrymatchalatte-320.webp 320w, assets/products/product-strawberrymatchalatte.webp 640w" title="Strawberry Matcha Latte - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Strawberry Matcha Latte — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-strawberrymatchalatte.webp" srcset="assets/products/product-strawberrymatchalatte-320.webp 320w, assets/products/product-strawberrymatchalatte-480.webp 480w, assets/products/product-strawberrymatchalatte.webp 640w" title="Strawberry Matcha Latte - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1219,7 +1228,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-chai-latte">
 <div class="drink-card-img-wrap">
-<img alt="Teas, Chai &amp; Matcha category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-teas-chai--matcha.webp" srcset="assets/products/category-teas-chai--matcha-320.webp 320w, assets/products/category-teas-chai--matcha.webp 640w" title="Spiced Chai Tea Latte - 7 Brew Coffee Menu" width="640"/>
+<img alt="Teas, Chai &amp; Matcha category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-teas-chai--matcha.webp" srcset="assets/products/category-teas-chai--matcha-320.webp 320w, assets/products/category-teas-chai--matcha-480.webp 480w, assets/products/category-teas-chai--matcha.webp 640w" title="Spiced Chai Tea Latte - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1243,7 +1252,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-iced-peach-black-tea">
 <div class="drink-card-img-wrap">
-<img alt="Teas, Chai &amp; Matcha category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-teas-chai--matcha.webp" srcset="assets/products/category-teas-chai--matcha-320.webp 320w, assets/products/category-teas-chai--matcha.webp 640w" title="Iced Peach Black Tea - 7 Brew Coffee Menu" width="640"/>
+<img alt="Teas, Chai &amp; Matcha category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-teas-chai--matcha.webp" srcset="assets/products/category-teas-chai--matcha-320.webp 320w, assets/products/category-teas-chai--matcha-480.webp 480w, assets/products/category-teas-chai--matcha.webp 640w" title="Iced Peach Black Tea - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1267,7 +1276,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-pink-paradise-lemonade">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Pink Paradise Lemonade — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-pinkparadiselemonade.webp" srcset="assets/products/product-pinkparadiselemonade-320.webp 320w, assets/products/product-pinkparadiselemonade.webp 640w" title="Pink Paradise Lemonade - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Pink Paradise Lemonade — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-pinkparadiselemonade.webp" srcset="assets/products/product-pinkparadiselemonade-320.webp 320w, assets/products/product-pinkparadiselemonade-480.webp 480w, assets/products/product-pinkparadiselemonade.webp 640w" title="Pink Paradise Lemonade - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1291,7 +1300,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-tropic-thunder-lemonade">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Tropic Thunder Lemonade — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-tropicthunderlemonade.webp" srcset="assets/products/product-tropicthunderlemonade-320.webp 320w, assets/products/product-tropicthunderlemonade.webp 640w" title="Tropic Thunder Lemonade - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Tropic Thunder Lemonade — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-tropicthunderlemonade.webp" srcset="assets/products/product-tropicthunderlemonade-320.webp 320w, assets/products/product-tropicthunderlemonade-480.webp 480w, assets/products/product-tropicthunderlemonade.webp 640w" title="Tropic Thunder Lemonade - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1315,7 +1324,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-blackberry-cobbler-lemonade">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Blackberry Cobbler Lemonade — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-blackberrycobblerlemonade.webp" srcset="assets/products/product-blackberrycobblerlemonade-320.webp 320w, assets/products/product-blackberrycobblerlemonade.webp 640w" title="Blackberry Cobbler Lemonade - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Blackberry Cobbler Lemonade — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-blackberrycobblerlemonade.webp" srcset="assets/products/product-blackberrycobblerlemonade-320.webp 320w, assets/products/product-blackberrycobblerlemonade-480.webp 480w, assets/products/product-blackberrycobblerlemonade.webp 640w" title="Blackberry Cobbler Lemonade - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1339,7 +1348,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-classic-lemonade">
 <div class="drink-card-img-wrap">
-<img alt="Lemonades category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-lemonades.webp" srcset="assets/products/category-lemonades-320.webp 320w, assets/products/category-lemonades.webp 640w" title="Fresh Lemonade - 7 Brew Coffee Menu" width="640"/>
+<img alt="Lemonades category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-lemonades.webp" srcset="assets/products/category-lemonades-320.webp 320w, assets/products/category-lemonades-480.webp 480w, assets/products/category-lemonades.webp 640w" title="Fresh Lemonade - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1427,7 +1436,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 
 <article class="drink-card" id="card-cookies-cream-shake">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Cookies &amp; Cream Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-cookiescreamshake.webp" srcset="assets/products/product-cookiescreamshake-320.webp 320w, assets/products/product-cookiescreamshake.webp 640w" title="Cookies &amp; Cream Shake - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Cookies &amp; Cream Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-cookiescreamshake.webp" srcset="assets/products/product-cookiescreamshake-320.webp 320w, assets/products/product-cookiescreamshake-480.webp 480w, assets/products/product-cookiescreamshake.webp 640w" title="Cookies &amp; Cream Shake - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1451,7 +1460,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-birthday-cake-shake">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Birthday Cake Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-birthdaycakeshake.webp" srcset="assets/products/product-birthdaycakeshake-320.webp 320w, assets/products/product-birthdaycakeshake.webp 640w" title="Birthday Cake Shake - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Birthday Cake Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-birthdaycakeshake.webp" srcset="assets/products/product-birthdaycakeshake-320.webp 320w, assets/products/product-birthdaycakeshake-480.webp 480w, assets/products/product-birthdaycakeshake.webp 640w" title="Birthday Cake Shake - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1475,7 +1484,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-orange-sherbet-shake">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Orange Sherbet Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-orangesherbetshake.webp" srcset="assets/products/product-orangesherbetshake-320.webp 320w, assets/products/product-orangesherbetshake.webp 640w" title="Orange Sherbet Shake - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Orange Sherbet Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-orangesherbetshake.webp" srcset="assets/products/product-orangesherbetshake-320.webp 320w, assets/products/product-orangesherbetshake-480.webp 480w, assets/products/product-orangesherbetshake.webp 640w" title="Orange Sherbet Shake - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1499,7 +1508,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-rocky-road-shake">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Rocky Road Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-rockyroadshake.webp" srcset="assets/products/product-rockyroadshake-320.webp 320w, assets/products/product-rockyroadshake.webp 640w" title="Rocky Road Shake - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Rocky Road Shake — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-rockyroadshake.webp" srcset="assets/products/product-rockyroadshake-320.webp 320w, assets/products/product-rockyroadshake-480.webp 480w, assets/products/product-rockyroadshake.webp 640w" title="Rocky Road Shake - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1563,7 +1572,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-secret-cookie-butter">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Cookie Butter Chiller - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Cookie Butter Chiller - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1587,7 +1596,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-secret-butterbeer">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Butterbeer Breve - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Butterbeer Breve - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1611,7 +1620,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-secret-funnel-cake">
 <div class="drink-card-img-wrap">
-<img alt="7 Brew Funnel Cake Coffee Frozen Chiller — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/product-funnelcakecoffeefrozenchiller.webp" srcset="assets/products/product-funnelcakecoffeefrozenchiller-320.webp 320w, assets/products/product-funnelcakecoffeefrozenchiller.webp 640w" title="Funnel Cake Chiller - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Brew Funnel Cake Coffee Frozen Chiller — image supplied by 7 Brew" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/product-funnelcakecoffeefrozenchiller.webp" srcset="assets/products/product-funnelcakecoffeefrozenchiller-320.webp 320w, assets/products/product-funnelcakecoffeefrozenchiller-480.webp 480w, assets/products/product-funnelcakecoffeefrozenchiller.webp 640w" title="Funnel Cake Chiller - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Product image: 7 Brew.</span>
 </div>
 <div class="drink-card-top">
@@ -1635,7 +1644,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-secret-black-mamba">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Black Mamba 7 Energy - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Black Mamba 7 Energy - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1659,7 +1668,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-secret-snickerdoodle">
 <div class="drink-card-img-wrap">
-<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics.webp 640w" title="Snickerdoodle Latte - 7 Brew Coffee Menu" width="640"/>
+<img alt="7 Classics category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-classics.webp" srcset="assets/products/category-classics-320.webp 320w, assets/products/category-classics-480.webp 480w, assets/products/category-classics.webp 640w" title="Snickerdoodle Latte - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1683,7 +1692,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-banana-strawberry-smoothie">
 <div class="drink-card-img-wrap">
-<img alt="Smoothies category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies.webp 640w" title="Banana Strawberry Smoothie - 7 Brew Coffee Menu" width="640"/>
+<img alt="Smoothies category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies-480.webp 480w, assets/products/category-smoothies.webp 640w" title="Banana Strawberry Smoothie - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1707,7 +1716,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-tiki-tango-mango-smoothie">
 <div class="drink-card-img-wrap">
-<img alt="Smoothies category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies.webp 640w" title="Tiki Tango Mango Smoothie - 7 Brew Coffee Menu" width="640"/>
+<img alt="Smoothies category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies-480.webp 480w, assets/products/category-smoothies.webp 640w" title="Tiki Tango Mango Smoothie - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1731,7 +1740,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-tigers-blood-pina-colada-smoothie">
 <div class="drink-card-img-wrap">
-<img alt="Smoothies category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies.webp 640w" title="Tiger's Blood Piña Colada Smoothie - 7 Brew Coffee Menu" width="640"/>
+<img alt="Smoothies category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies-480.webp 480w, assets/products/category-smoothies.webp 640w" title="Tiger's Blood Piña Colada Smoothie - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -1755,7 +1764,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
 </article>
 <article class="drink-card" id="card-blackberry-cobbler-wildberry-smoothie">
 <div class="drink-card-img-wrap">
-<img alt="Smoothies category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 88vw, 400px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies.webp 640w" title="Blackberry Cobbler Wildberry Smoothie - 7 Brew Coffee Menu" width="640"/>
+<img alt="Smoothies category photo — category photo; exact custom recipe not pictured" class="drink-card-img" decoding="async" height="640" loading="lazy" sizes="(max-width: 600px) 56vw, 200px" src="assets/products/category-smoothies.webp" srcset="assets/products/category-smoothies-320.webp 320w, assets/products/category-smoothies-480.webp 480w, assets/products/category-smoothies.webp 640w" title="Blackberry Cobbler Wildberry Smoothie - 7 Brew Coffee Menu" width="640"/>
 <span class="image-credit">Official category photo; exact custom drink is not pictured.</span>
 </div>
 <div class="drink-card-top">
@@ -2250,7 +2259,7 @@ body.modern-home .toolbar-section .cat-tab-btn.active{background:var(--brew-crim
   </div>
 <!-- Scripts -->
 <script defer src="js/menu-data.js?v=20261029b"></script>
-<script defer src="js/app.js?v=20261029a"></script>
+<script defer src="js/app.js?v=20261029b"></script>
 <script src="js/nav.js?v=20260912c"></script><script src="js/motion.js?v=20260912c"></script><a href="#hero" class="back-to-top" aria-label="Back to top">↑ Top</a>
 </body>
 </html>
