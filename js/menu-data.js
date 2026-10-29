@@ -3123,42 +3123,68 @@ const MENU_DATA = {
   ],
   "faqs": [
     {
-      "q": "Where can I check current 7 Brew prices?",
-      "a": "Select your stand in the official app or ask at the drive-thru. This guide does not have a verified nationwide price list. Confirm the final price after customizations."
+      "q": "What are the 7 Brew prices?",
+      "a": "Most drinks cost between $2.75 and $7.50. The 7 Originals, like the Blondie, are $4.50 for a small, $5.25 for a medium and $6.25 for a large. 7 Fizz sodas and lemonades start at $2.75. Prices vary a little from stand to stand."
     },
     {
-      "q": "What is in a 7 Brew Blondie?",
-      "a": "The official catalog lists vanilla and caramel in a breve. Read our Blondie guide for preparation choices and comparisons."
+      "q": "Why doesn't 7 Brew list prices?",
+      "a": "Because every stand sets its own prices. The official 7 Brew site shows the drinks and leaves the prices off, and the app only shows them after you pick a stand. The prices on this page are national estimates, checked in October 2026."
     },
     {
-      "q": "Are Cookie Butter and Banana Bread on the official menu?",
-      "a": "Both appear in the official 7 Originals catalog checked September 9, 2026. Confirm availability with your selected stand."
+      "q": "How much is a medium drink at 7 Brew?",
+      "a": "It depends on the drink. A medium Blondie is $5.25. Mediums start at $3.50 for a 7 Fizz or a lemonade and reach $6.50 for a shake or a frozen chiller. A medium is 24 oz iced or 16 oz hot."
     },
     {
-      "q": "Does 7 Brew have sugar-free flavors?",
-      "a": "The official catalog marks selected flavors with sugar-free options. This does not mean every finished drink containing those flavors is sugar-free."
+      "q": "What can I get at 7 Brew for $5?",
+      "a": "Plenty. Any small or medium 7 Fizz or lemonade, a small classic latte at $3.95, a small chai or tea at $3.95, any small classic coffee at $4.25, and even a small Blondie at $4.50."
+    },
+    {
+      "q": "What is the cheapest drink at 7 Brew?",
+      "a": "The House Blend drip coffee, the 7 Fizz sodas, the lemonades and the iced teas all start at $2.75 for a small. The Pup Cup for your dog is free."
+    },
+    {
+      "q": "What is the most popular drink at 7 Brew?",
+      "a": "The Blondie. It is a breve with caramel and vanilla, and it is the most ordered drink on the menu. A medium has 480 calories. It comes iced, hot or as a frozen chiller."
+    },
+    {
+      "q": "How much is a 7 Brew energy drink?",
+      "a": "At a stand, a 7 Energy is $4.50 for a small, $5.25 for a medium and $6.25 for a large, with about 105 to 114 mg of caffeine in a medium. The canned version sells at Walmart for $2.48."
+    },
+    {
+      "q": "Does 7 Brew have sugar-free drinks?",
+      "a": "Yes. 44 drinks have an official sugar-free version in the current nutrition guide, including the Blondie, the Brunette and the Smooth 7. 15 of the 33 flavors come in a sugar-free option. Our sugar-free page lists every drink with its calories."
+    },
+    {
+      "q": "Where can I find 7 Brew calories and caffeine?",
+      "a": "Every drink card on this page shows the medium calories and caffeine from the official nutrition guide. For any other size or a custom build, use the nutrition calculator page. It runs on the same guide data."
+    },
+    {
+      "q": "Does 7 Brew have a secret menu?",
+      "a": "Yes, an unofficial one. Regulars order off-menu builds by naming the base drink and the flavors instead of a nickname. Our secret menu guide lists the known combinations and exactly what to ask the brewista for."
+    },
+    {
+      "q": "Can I get a 7 Brew menu PDF?",
+      "a": "Yes. Our menu PDF page has a free printable menu with prices. 7 Brew's own site offers an official menu PDF too, but it does not include prices."
+    },
+    {
+      "q": "Is 7 Brew cheaper than Starbucks?",
+      "a": "On most drinks, yes. A medium Blondie is $5.25, and a similar specialty latte at Starbucks usually costs more. Starbucks does not post one national price list either, and cup sizes differ, so treat it as a rough comparison."
+    },
+    {
+      "q": "What sizes does 7 Brew have?",
+      "a": "Kids, small, medium and large. Iced and frozen drinks come in 16, 24 and 32 oz cups. Hot drinks come in 12, 16 and 20 oz. Our sizes and caffeine guide breaks down every size."
     },
     {
       "q": "Does 7 Brew have an app?",
-      "a": "Yes. Find the official download links and current program details through 7brew.com/rewards. Our app guide explains how to check your stand before ordering."
+      "a": "Yes. The 7 Brew app launched in August 2026 for order-ahead pickup and Rewards. You earn 100 points for each qualifying drink, and 1,000 points can be swapped for a free drink. Our app and rewards guide has the details."
     },
     {
-      "q": "Does every 7 Brew have the same hours?",
-      "a": "No. The researched official stand listings contain different opening and closing times. Check the exact street address in our location guides or the official directory."
+      "q": "What deals does 7 Brew have right now?",
+      "a": "The standing deal is Jackpot Day, on the 7th of every month from 7 AM to 7 PM at participating stands. The offer changes from month to month. Our deals page tracks the current ones."
     },
     {
-      "q": "Where can I find calories and caffeine?",
-      "a": "Use the official nutrition guide and match the drink name, size and preparation. Customizations may need a separate check with 7 Brew."
-    },
-    {
-      "q": "How do I order a custom flavor combination?",
-      "a": "Specify the drink base, size, preparation and flavors. A nickname alone may not identify the recipe you want. Ask the stand to confirm the order."
-    },
-      {"q": "How much is a medium drink at 7 Brew?", "a": "A medium signature drink like the Blondie is $5.25. Mediums start at $3.25 for a House Blend coffee and reach $6.50 for a 7 Energy. A medium is 24 oz iced or 16 oz hot."},
-      {"q": "Are 7 Brew prices the same at every location?", "a": "No. Each stand sets its own board, so prices move a little by city and state. The prices on this page are researched estimates from menu boards and the 7 Brew app. Your stand's board is the final price."},
-      {"q": "Does 7 Brew have a secret menu?", "a": "Yes. Regulars have built a long list of off-menu combinations, like the Funnel Cake Macchiato and the Pink Mermaid. The secret menu guide on this site lists each drink's name and exactly what to ask the Brewista for."},
-      {"q": "Can I get a 7 Brew menu PDF?", "a": "Yes. This site has a free printable menu PDF with prices on the menu PDF page. 7 Brew's own site also offers an official menu PDF, but it shows calorie ranges and no prices."},
-      {"q": "Is 7 Brew cheaper than Starbucks?", "a": "For most drinks, yes. A medium Blondie is $5.25, and a similar sized specialty latte at Starbucks usually runs higher. Sizes and recipes differ between the chains, so treat it as a rough guide rather than an exact match."},
-      {"q": "What sizes does 7 Brew have?", "a": "Four sizes: kids, small, medium and large. Iced and frozen drinks come in 16, 24 and 32 oz. Hot drinks come in 12, 16 and 20 oz. The cup sizes guide on this site shows every size with its caffeine."}
+      "q": "Are 7 Brew prices the same at every location?",
+      "a": "No. Each stand sets its own board, so prices move a little by city and state. Treat the prices here as close national estimates. Your stand's board is the final word."
+    }
   ]
 };
